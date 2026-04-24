@@ -1,0 +1,38 @@
+{
+  "1": {
+    "inputs": {
+      "environment": "indoor",
+      "resolution": 512,
+      "image": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "Zoe_DepthAnythingPreprocessor",
+    "_meta": {
+      "title": "Zoe Depth Anything"
+    }
+  },
+  "2": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "1",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "3": {
+    "inputs": {
+      "image": "cover.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  }
+}
