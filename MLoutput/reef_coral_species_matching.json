@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created": "2026-04-24T16:06:42.327809",
+    "created": "2026-04-24T17:34:21.688856",
     "total_reefs": 18,
     "ml_method": "Hybrid: TF-IDF (40%) + Keyword Overlap (30%) + Abundance Weighting (30%)",
     "step1_description": "Hand image to coral species matching (TF-IDF + Cosine Similarity)",
@@ -200,7 +200,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -212,7 +212,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -224,7 +224,7 @@
           "keyword_similarity": 0.2222222222222222,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -236,7 +236,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -248,7 +248,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -260,7 +260,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -272,7 +272,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -284,7 +284,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -296,7 +296,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         },
@@ -308,7 +308,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0242.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons and upper slopes.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         }
@@ -659,7 +659,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Most reef environments, especially back reef margins.",
           "characteristics": "Characters:Colonies are generally massive, and meandroid or submeandroid, with t..."
         },
@@ -671,7 +671,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Upper reef slopes, back reef margins and fringing reefs.",
           "characteristics": "Characters:Colonies are tables, usually side-attached, with generally horizontal..."
         },
@@ -683,7 +683,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:One of the most commonFaviaof eastern Australia, but usually much less common elsewhere.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0239.jpg",
           "habitat": "Habitat:All reef environments, often a dominant species of back reef margins.",
           "characteristics": "Characters:Colonies are massive. Corallites are circular, closely compacted in s..."
         },
@@ -695,7 +695,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -707,7 +707,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Back reef margins.",
           "characteristics": "Characters:Colonies are hemispherical, less than 0.5 metres across, with an even..."
         },
@@ -719,7 +719,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
         },
@@ -731,7 +731,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0254.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
         },
@@ -743,7 +743,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0050.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
         },
@@ -755,7 +755,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0275.jpg",
           "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
           "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
         },
@@ -767,7 +767,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:Sheltered reef slopes.",
           "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
         }
@@ -842,7 +842,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
         },
@@ -854,7 +854,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0254.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
         },
@@ -866,7 +866,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0050.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
         },
@@ -878,7 +878,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0275.jpg",
           "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
           "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
         },
@@ -890,7 +890,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:Sheltered reef slopes.",
           "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
         },
@@ -902,7 +902,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0107.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are mostly submassive and meandroid. Valleys are highly conv..."
         },
@@ -914,7 +914,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common in Vietnam.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0007.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are caespitose, composed of thin branches which interlock in..."
         },
@@ -926,7 +926,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:All reef habitats but most common on lower reef slopes.",
           "characteristics": "Characters:Colonies are unifacial laminae, usually horizontal, which may develop..."
         },
@@ -938,7 +938,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common and usually conspicuous.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:Frequently a dominant species of lagoons and reef slopes.",
           "characteristics": "Characters:Colonies are flat laminae or plates, or fused nodules and columns. Co..."
         },
@@ -950,7 +950,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:AllAcroporaassemblages but especially those of upper reef slopes.",
           "characteristics": "Characters:Colonies are irregularly corymbose with elongate tapering branchlets...."
         }
@@ -1113,7 +1113,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common only in high latitude locations.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are cerioid and usually small but sometimes over 1.5 metres ..."
         },
@@ -1125,7 +1125,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common, especially at the Houtman Abrolhos Islands of south-west Australia.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:Lagoons or reef slopes protected from strong wave action.",
           "characteristics": "Characters:Colonies are arborescent with straight cylindrical branches. These ma..."
         },
@@ -1137,7 +1137,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Deep water or protected reef backs and lagoons.",
           "characteristics": "Characters:Colonies form bottlebrush thickets with upright or prostrate main bra..."
         },
@@ -1149,7 +1149,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:Upper reef slopes.",
           "characteristics": "Characters:Colonies are caespitose or corymbose, composed of branches which inte..."
         },
@@ -1161,7 +1161,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common on the Chesterfield Reefs and Norfolk Island, rare elsewhere.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Reef slopes and lagoons.",
           "characteristics": "Characters:Colonies are digitate clumps, sometimes forming large stands. Branche..."
         },
@@ -1173,7 +1173,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Upper reef slopes, back reef margins and fringing reefs.",
           "characteristics": "Characters:Colonies are tables, usually side-attached, with generally horizontal..."
         },
@@ -1185,7 +1185,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Rarely common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0007.jpg",
           "habitat": "Habitat:Exposed upper reef slopes and flats.",
           "characteristics": "Characters:Colonies are digitate bushes with an extensive encrusting base. Branc..."
         },
@@ -1197,7 +1197,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common and conspicuous.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0053.jpg",
           "habitat": "Habitat:Upper reef slopes and lagoons.",
           "characteristics": "Characters:Colonies are wide flat tables which are usually thin and finely struc..."
         },
@@ -1209,7 +1209,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Shallow protected reefs.",
           "characteristics": "Characters:Colonies are corymbose plates with crowded branchlets. Branchlets at ..."
         },
@@ -1221,7 +1221,7 @@
           "keyword_similarity": 0.0,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common, may be a dominant species.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0239.jpg",
           "habitat": "Habitat:Upper reef slopes, lagoons and fringing reefs.",
           "characteristics": "Characters:Colonies are generally branching and vary from perforated plates to c..."
         }
@@ -1396,7 +1396,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Shallow lagoons and intertidal pools.",
           "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
         },
@@ -1408,7 +1408,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Shallow reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
         },
@@ -1420,7 +1420,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0106.jpg",
           "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
           "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
         },
@@ -1432,7 +1432,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0060.jpg",
           "habitat": "Habitat:Shallow lagoons and reefs.",
           "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
         },
@@ -1444,7 +1444,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -1456,7 +1456,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -1468,7 +1468,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0063.jpg",
           "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
           "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
         },
@@ -1480,7 +1480,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common only in Western Australia and Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
           "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
         },
@@ -1492,7 +1492,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
           "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
         },
@@ -1504,7 +1504,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Generally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0239.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are thin plates and/or contorted fronds with narrow bases an..."
         }
@@ -1851,7 +1851,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -1863,7 +1863,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -1875,7 +1875,7 @@
           "keyword_similarity": 0.2222222222222222,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -1887,7 +1887,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -1899,7 +1899,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -1911,7 +1911,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -1923,7 +1923,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -1935,7 +1935,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -1947,7 +1947,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         },
@@ -1959,7 +1959,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0242.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons and upper slopes.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         }
@@ -2214,7 +2214,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -2226,7 +2226,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -2238,7 +2238,7 @@
           "keyword_similarity": 0.2222222222222222,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -2250,7 +2250,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -2262,7 +2262,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -2274,7 +2274,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -2286,7 +2286,7 @@
           "keyword_similarity": 0.6,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
           "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
         },
@@ -2298,7 +2298,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -2310,7 +2310,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -2322,7 +2322,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         }
@@ -2397,7 +2397,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Shallow lagoons and intertidal pools.",
           "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
         },
@@ -2409,7 +2409,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Shallow reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
         },
@@ -2421,7 +2421,7 @@
           "keyword_similarity": 0.75,
           "abundance_factor": 0.72,
           "abundance_level": "Abundance:Uncommon.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Shallow reef environments or sandy lagoons. Colonies are often partly buried in sand.",
           "characteristics": "Characters:Colonies are encrusting or are low mounds up to one metre across. Cor..."
         },
@@ -2433,7 +2433,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0106.jpg",
           "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
           "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
         },
@@ -2445,7 +2445,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0060.jpg",
           "habitat": "Habitat:Shallow lagoons and reefs.",
           "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
         },
@@ -2457,7 +2457,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -2469,7 +2469,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -2481,7 +2481,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0063.jpg",
           "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
           "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
         },
@@ -2493,7 +2493,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common only in Western Australia and Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
           "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
         },
@@ -2505,7 +2505,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
           "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
         }
@@ -3070,7 +3070,7 @@
           "keyword_similarity": 0.375,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -3082,7 +3082,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -3094,7 +3094,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -3106,7 +3106,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -3118,7 +3118,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -3130,7 +3130,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -3142,7 +3142,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -3154,7 +3154,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0215.jpg",
           "habitat": "Habitat:Occurs on reef rubble.",
           "characteristics": "Characters:Colonies are small side-or centrally attached plates. A central coral..."
         },
@@ -3166,7 +3166,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -3178,7 +3178,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         }
@@ -3495,7 +3495,7 @@
           "keyword_similarity": 0.375,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -3507,7 +3507,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -3519,7 +3519,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -3531,7 +3531,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -3543,7 +3543,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -3555,7 +3555,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -3567,7 +3567,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -3579,7 +3579,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0215.jpg",
           "habitat": "Habitat:Occurs on reef rubble.",
           "characteristics": "Characters:Colonies are small side-or centrally attached plates. A central coral..."
         },
@@ -3591,7 +3591,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -3603,7 +3603,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         }
@@ -4338,7 +4338,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Shallow lagoons and intertidal pools.",
           "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
         },
@@ -4350,7 +4350,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Shallow reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
         },
@@ -4362,7 +4362,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0106.jpg",
           "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
           "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
         },
@@ -4374,7 +4374,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0060.jpg",
           "habitat": "Habitat:Shallow lagoons and reefs.",
           "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
         },
@@ -4386,7 +4386,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -4398,7 +4398,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -4410,7 +4410,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0063.jpg",
           "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
           "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
         },
@@ -4422,7 +4422,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common only in Western Australia and Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
           "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
         },
@@ -4434,7 +4434,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
           "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
         },
@@ -4446,7 +4446,7 @@
           "keyword_similarity": 0.42857142857142855,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         }
@@ -4587,7 +4587,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Shallow lagoons and intertidal pools.",
           "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
         },
@@ -4599,7 +4599,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Shallow reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
         },
@@ -4611,7 +4611,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0106.jpg",
           "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
           "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
         },
@@ -4623,7 +4623,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0060.jpg",
           "habitat": "Habitat:Shallow lagoons and reefs.",
           "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
         },
@@ -4635,7 +4635,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -4647,7 +4647,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
           "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
         },
@@ -4659,7 +4659,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0063.jpg",
           "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
           "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
         },
@@ -4671,7 +4671,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common only in Western Australia and Japan.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
           "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
         },
@@ -4683,7 +4683,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0094.jpg",
           "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
           "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
         },
@@ -4695,7 +4695,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Generally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0239.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are thin plates and/or contorted fronds with narrow bases an..."
         }
@@ -4770,7 +4770,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
         },
@@ -4782,7 +4782,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0254.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
         },
@@ -4794,7 +4794,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0050.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
         },
@@ -4806,7 +4806,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0275.jpg",
           "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
           "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
         },
@@ -4818,7 +4818,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:Sheltered reef slopes.",
           "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
         },
@@ -4830,7 +4830,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0107.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are mostly submassive and meandroid. Valleys are highly conv..."
         },
@@ -4842,7 +4842,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:All reef habitats but most common on lower reef slopes.",
           "characteristics": "Characters:Colonies are unifacial laminae, usually horizontal, which may develop..."
         },
@@ -4854,7 +4854,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common, but less so thanIsopora palifera.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Occurs in all reef environments, especially upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are generally submassive or solid plates, usually without ax..."
         },
@@ -4866,7 +4866,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common and usually conspicuous.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:Frequently a dominant species of lagoons and reef slopes.",
           "characteristics": "Characters:Colonies are flat laminae or plates, or fused nodules and columns. Co..."
         },
@@ -4878,7 +4878,7 @@
           "keyword_similarity": 0.4,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:AllAcroporaassemblages but especially those of upper reef slopes.",
           "characteristics": "Characters:Colonies are irregularly corymbose with elongate tapering branchlets...."
         }
@@ -5239,7 +5239,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -5251,7 +5251,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -5263,7 +5263,7 @@
           "keyword_similarity": 0.2222222222222222,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -5275,7 +5275,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -5287,7 +5287,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -5299,7 +5299,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -5311,7 +5311,7 @@
           "keyword_similarity": 0.6,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
           "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
         },
@@ -5323,7 +5323,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -5335,7 +5335,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -5347,7 +5347,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         }
@@ -5602,7 +5602,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -5614,7 +5614,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -5626,7 +5626,7 @@
           "keyword_similarity": 0.2222222222222222,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -5638,7 +5638,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -5650,7 +5650,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -5662,7 +5662,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -5674,7 +5674,7 @@
           "keyword_similarity": 0.6,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
           "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
         },
@@ -5686,7 +5686,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -5698,7 +5698,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -5710,7 +5710,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         }
@@ -5829,7 +5829,7 @@
           "keyword_similarity": 0.375,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -5841,7 +5841,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -5853,7 +5853,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -5865,7 +5865,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -5877,7 +5877,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -5889,7 +5889,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -5901,7 +5901,7 @@
           "keyword_similarity": 0.6,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
           "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
         },
@@ -5913,7 +5913,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -5925,7 +5925,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0215.jpg",
           "habitat": "Habitat:Occurs on reef rubble.",
           "characteristics": "Characters:Colonies are small side-or centrally attached plates. A central coral..."
         },
@@ -5937,7 +5937,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         }
@@ -6012,7 +6012,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0082.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
         },
@@ -6024,7 +6024,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Unknown but possibly common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0254.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
         },
@@ -6036,7 +6036,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0050.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
         },
@@ -6048,7 +6048,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0275.jpg",
           "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
           "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
         },
@@ -6060,7 +6060,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:Sheltered reef slopes.",
           "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
         },
@@ -6072,7 +6072,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 0.9649999999999999,
           "abundance_level": "Abundance:Locally common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0107.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are mostly submassive and meandroid. Valleys are highly conv..."
         },
@@ -6084,7 +6084,7 @@
           "keyword_similarity": 0.6666666666666666,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common in Vietnam.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0007.jpg",
           "habitat": "Habitat:Reef slopes.",
           "characteristics": "Characters:Colonies are caespitose, composed of thin branches which interlock in..."
         },
@@ -6096,7 +6096,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:All reef habitats but most common on lower reef slopes.",
           "characteristics": "Characters:Colonies are unifacial laminae, usually horizontal, which may develop..."
         },
@@ -6108,7 +6108,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common and usually conspicuous.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:Frequently a dominant species of lagoons and reef slopes.",
           "characteristics": "Characters:Colonies are flat laminae or plates, or fused nodules and columns. Co..."
         },
@@ -6120,7 +6120,7 @@
           "keyword_similarity": 0.5,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0037.jpg",
           "habitat": "Habitat:AllAcroporaassemblages but especially those of upper reef slopes.",
           "characteristics": "Characters:Colonies are irregularly corymbose with elongate tapering branchlets...."
         }
@@ -6195,7 +6195,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Shallow reef environments.",
           "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
         },
@@ -6207,7 +6207,7 @@
           "keyword_similarity": 0.14285714285714285,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0135.jpg",
           "habitat": "Habitat:Upper reef slopes and fringing reefs.",
           "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
         },
@@ -6219,7 +6219,7 @@
           "keyword_similarity": 0.2222222222222222,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
           "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
         },
@@ -6231,7 +6231,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0250.jpg",
           "habitat": "Habitat:A wide range of reef environments.",
           "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
         },
@@ -6243,7 +6243,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0183.jpg",
           "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
           "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
         },
@@ -6255,7 +6255,7 @@
           "keyword_similarity": 0.3333333333333333,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Seldom common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0070.jpg",
           "habitat": "Habitat:Upper reef slopes and reef flats.",
           "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
         },
@@ -6267,7 +6267,7 @@
           "keyword_similarity": 0.6,
           "abundance_factor": 0.895,
           "abundance_level": "Abundance:Sometimes common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0222.jpg",
           "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
           "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
         },
@@ -6279,7 +6279,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:May be a dominant species on reef back margins.",
           "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
         },
@@ -6291,7 +6291,7 @@
           "keyword_similarity": 0.25,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0101.jpg",
           "habitat": "Habitat:Most reef environments.",
           "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
         },
@@ -6303,7 +6303,7 @@
           "keyword_similarity": 0.2,
           "abundance_factor": 1.0,
           "abundance_level": "Abundance:Common.",
-          "hand_image_filename": null,
+          "hand_image_filename": "hand_image_0056.jpg",
           "habitat": "Habitat:Shallow reef environments where water movement is strong.",
           "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
         }
