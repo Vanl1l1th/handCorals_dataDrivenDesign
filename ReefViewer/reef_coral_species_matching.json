@@ -1,0 +1,6313 @@
+{
+  "metadata": {
+    "created": "2026-04-24T17:34:21.688856",
+    "total_reefs": 18,
+    "ml_method": "Hybrid: TF-IDF (40%) + Keyword Overlap (30%) + Abundance Weighting (30%)",
+    "step1_description": "Hand image to coral species matching (TF-IDF + Cosine Similarity)",
+    "step2_description": "Reef to coral species matching with abundance-weighted composite scoring",
+    "improvements": {
+      "text_similarity": "Improved TF-IDF with 200 features and trigrams for short text matching",
+      "keyword_matching": "Habitat keyword extraction and Jaccard similarity for semantic matching",
+      "abundance_weighting": "Abundance levels mapped to probability weights (Common: 1.0, Rare: 0.3)",
+      "composite_score": "Weighted combination of text, keyword, and abundance factors"
+    }
+  },
+  "reefs": [
+    {
+      "reef_id": 1,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Inner Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -76.869108,
+                17.892734
+              ],
+              [
+                -76.866818,
+                17.89206
+              ],
+              [
+                -76.866368,
+                17.890668
+              ],
+              [
+                -76.867851,
+                17.890129
+              ],
+              [
+                -76.869288,
+                17.890668
+              ],
+              [
+                -76.869108,
+                17.892734
+              ]
+            ],
+            [
+              [
+                -76.866863,
+                17.890757
+              ],
+              [
+                -76.866952,
+                17.890623
+              ],
+              [
+                -76.866773,
+                17.890578
+              ],
+              [
+                -76.866728,
+                17.890757
+              ],
+              [
+                -76.866863,
+                17.890757
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -77.415958,
+                17.862505
+              ],
+              [
+                -77.415464,
+                17.861832
+              ],
+              [
+                -77.413038,
+                17.862281
+              ],
+              [
+                -77.412859,
+                17.861787
+              ],
+              [
+                -77.415509,
+                17.860754
+              ],
+              [
+                -77.415958,
+                17.862505
+              ]
+            ],
+            [
+              [
+                -77.413263,
+                17.861966
+              ],
+              [
+                -77.413308,
+                17.861921
+              ],
+              [
+                -77.413218,
+                17.861921
+              ],
+              [
+                -77.413218,
+                17.861966
+              ],
+              [
+                -77.413263,
+                17.861966
+              ]
+            ],
+            [
+              [
+                -77.413263,
+                17.861832
+              ],
+              [
+                -77.413308,
+                17.861832
+              ],
+              [
+                -77.413308,
+                17.861787
+              ],
+              [
+                -77.413263,
+                17.861787
+              ],
+              [
+                -77.413263,
+                17.861832
+              ]
+            ],
+            [
+              [
+                -77.414161,
+                17.860978
+              ],
+              [
+                -77.414071,
+                17.860978
+              ],
+              [
+                -77.414071,
+                17.861023
+              ],
+              [
+                -77.414161,
+                17.861023
+              ],
+              [
+                -77.414161,
+                17.860978
+              ]
+            ],
+            [
+              [
+                -77.415688,
+                17.860888
+              ],
+              [
+                -77.415643,
+                17.860888
+              ],
+              [
+                -77.415643,
+                17.860933
+              ],
+              [
+                -77.415688,
+                17.860933
+              ],
+              [
+                -77.415688,
+                17.860888
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Porites echinulata",
+          "rank": 1,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 2,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 3,
+          "composite_score": 0.4834195887063416,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.2222222222222222,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 7,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 8,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 9,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        },
+        {
+          "species_name": "Merulina scabricula",
+          "rank": 10,
+          "composite_score": 0.4504121439844836,
+          "text_similarity": 0.26888750281835194,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0242.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons and upper slopes.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        }
+      ]
+    },
+    {
+      "reef_id": 2,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Back Reef Slope",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                155.249093,
+                -5.849919
+              ],
+              [
+                155.249722,
+                -5.850278
+              ],
+              [
+                155.249722,
+                -5.851761
+              ],
+              [
+                155.247162,
+                -5.850997
+              ],
+              [
+                155.244467,
+                -5.856207
+              ],
+              [
+                155.236876,
+                -5.860429
+              ],
+              [
+                155.245859,
+                -5.850278
+              ],
+              [
+                155.249093,
+                -5.849919
+              ]
+            ],
+            [
+              [
+                155.244736,
+                -5.855039
+              ],
+              [
+                155.244602,
+                -5.855264
+              ],
+              [
+                155.244602,
+                -5.855399
+              ],
+              [
+                155.244871,
+                -5.855219
+              ],
+              [
+                155.244736,
+                -5.855039
+              ]
+            ],
+            [
+              [
+                155.243703,
+                -5.856117
+              ],
+              [
+                155.243838,
+                -5.856297
+              ],
+              [
+                155.244108,
+                -5.855938
+              ],
+              [
+                155.243793,
+                -5.856117
+              ],
+              [
+                155.243703,
+                -5.856117
+              ]
+            ],
+            [
+              [
+                155.239391,
+                -5.857869
+              ],
+              [
+                155.239661,
+                -5.857959
+              ],
+              [
+                155.240469,
+                -5.857779
+              ],
+              [
+                155.240649,
+                -5.857555
+              ],
+              [
+                155.239391,
+                -5.857869
+              ]
+            ],
+            [
+              [
+                155.24559,
+                -5.852165
+              ],
+              [
+                155.24559,
+                -5.852749
+              ],
+              [
+                155.245635,
+                -5.852749
+              ],
+              [
+                155.245904,
+                -5.852165
+              ],
+              [
+                155.24559,
+                -5.852165
+              ]
+            ],
+            [
+              [
+                155.249003,
+                -5.851446
+              ],
+              [
+                155.249363,
+                -5.851177
+              ],
+              [
+                155.248734,
+                -5.851087
+              ],
+              [
+                155.248734,
+                -5.851266
+              ],
+              [
+                155.249003,
+                -5.851446
+              ]
+            ],
+            [
+              [
+                155.246174,
+                -5.850997
+              ],
+              [
+                155.246398,
+                -5.850907
+              ],
+              [
+                155.246353,
+                -5.850772
+              ],
+              [
+                155.245904,
+                -5.851087
+              ],
+              [
+                155.246174,
+                -5.850997
+              ]
+            ],
+            [
+              [
+                155.246937,
+                -5.850772
+              ],
+              [
+                155.247027,
+                -5.850727
+              ],
+              [
+                155.246847,
+                -5.850683
+              ],
+              [
+                155.246892,
+                -5.850817
+              ],
+              [
+                155.246937,
+                -5.850772
+              ]
+            ],
+            [
+              [
+                155.245949,
+                -5.852704
+              ],
+              [
+                155.245904,
+                -5.852838
+              ],
+              [
+                155.246084,
+                -5.852883
+              ],
+              [
+                155.246084,
+                -5.852749
+              ],
+              [
+                155.245949,
+                -5.852704
+              ]
+            ],
+            [
+              [
+                155.244916,
+                -5.854455
+              ],
+              [
+                155.244916,
+                -5.854545
+              ],
+              [
+                155.244961,
+                -5.854545
+              ],
+              [
+                155.244961,
+                -5.854455
+              ],
+              [
+                155.244916,
+                -5.854455
+              ]
+            ],
+            [
+              [
+                155.248869,
+                -5.850548
+              ],
+              [
+                155.248824,
+                -5.850368
+              ],
+              [
+                155.248419,
+                -5.850458
+              ],
+              [
+                155.248419,
+                -5.850548
+              ],
+              [
+                155.248869,
+                -5.850548
+              ]
+            ],
+            [
+              [
+                155.247746,
+                -5.850638
+              ],
+              [
+                155.247925,
+                -5.850548
+              ],
+              [
+                155.247521,
+                -5.850548
+              ],
+              [
+                155.247566,
+                -5.850683
+              ],
+              [
+                155.247746,
+                -5.850638
+              ]
+            ],
+            [
+              [
+                155.249273,
+                -5.850593
+              ],
+              [
+                155.249318,
+                -5.850503
+              ],
+              [
+                155.249183,
+                -5.850458
+              ],
+              [
+                155.249138,
+                -5.850593
+              ],
+              [
+                155.249273,
+                -5.850593
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                155.430383,
+                -6.106828
+              ],
+              [
+                155.430383,
+                -6.103703
+              ],
+              [
+                155.433508,
+                -6.103703
+              ],
+              [
+                155.433508,
+                -6.106828
+              ],
+              [
+                155.430383,
+                -6.106828
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Platygyra daedalea",
+          "rank": 1,
+          "composite_score": 0.5175923044104999,
+          "text_similarity": 0.1689807610262497,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Most reef environments, especially back reef margins.",
+          "characteristics": "Characters:Colonies are generally massive, and meandroid or submeandroid, with t..."
+        },
+        {
+          "species_name": "Acropora clathrata",
+          "rank": 2,
+          "composite_score": 0.5052529690699148,
+          "text_similarity": 0.13813242267478715,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Upper reef slopes, back reef margins and fringing reefs.",
+          "characteristics": "Characters:Colonies are tables, usually side-attached, with generally horizontal..."
+        },
+        {
+          "species_name": "Favia pallida",
+          "rank": 3,
+          "composite_score": 0.5004809520591587,
+          "text_similarity": 0.12620238014789653,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:One of the most commonFaviaof eastern Australia, but usually much less common elsewhere.",
+          "hand_image_filename": "hand_image_0239.jpg",
+          "habitat": "Habitat:All reef environments, often a dominant species of back reef margins.",
+          "characteristics": "Characters:Colonies are massive. Corallites are circular, closely compacted in s..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 4,
+          "composite_score": 0.4871117776604939,
+          "text_similarity": 0.09277944415123482,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Porites densa",
+          "rank": 5,
+          "composite_score": 0.48663928180138405,
+          "text_similarity": 0.17034820450346014,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Back reef margins.",
+          "characteristics": "Characters:Colonies are hemispherical, less than 0.5 metres across, with an even..."
+        },
+        {
+          "species_name": "Cyphastrea kausti",
+          "rank": 6,
+          "composite_score": 0.484291021011892,
+          "text_similarity": 0.08572755252973,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
+        },
+        {
+          "species_name": "Sclerophyllia margariticola",
+          "rank": 7,
+          "composite_score": 0.4839575029973977,
+          "text_similarity": 0.0848937574934943,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0254.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
+        },
+        {
+          "species_name": "Porites colonensis",
+          "rank": 8,
+          "composite_score": 0.4837000402279183,
+          "text_similarity": 0.11050010056979596,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0050.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
+        },
+        {
+          "species_name": "Polyphyllia talpina",
+          "rank": 9,
+          "composite_score": 0.4817882053414918,
+          "text_similarity": 0.0794705133537296,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0275.jpg",
+          "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
+          "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
+        },
+        {
+          "species_name": "Acropora pharaonis",
+          "rank": 10,
+          "composite_score": 0.47627129742306995,
+          "text_similarity": 0.06567824355767482,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:Sheltered reef slopes.",
+          "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
+        }
+      ]
+    },
+    {
+      "reef_id": 3,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Reef Slope",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -145.913342,
+                -14.359785
+              ],
+              [
+                -145.913342,
+                -14.35666
+              ],
+              [
+                -145.910217,
+                -14.35666
+              ],
+              [
+                -145.910217,
+                -14.359785
+              ],
+              [
+                -145.913342,
+                -14.359785
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -144.888374,
+                -14.385801
+              ],
+              [
+                -144.887835,
+                -14.38607
+              ],
+              [
+                -144.886128,
+                -14.38625
+              ],
+              [
+                -144.89026,
+                -14.38634
+              ],
+              [
+                -144.888374,
+                -14.385801
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Cyphastrea kausti",
+          "rank": 1,
+          "composite_score": 0.534291021011892,
+          "text_similarity": 0.08572755252973,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
+        },
+        {
+          "species_name": "Sclerophyllia margariticola",
+          "rank": 2,
+          "composite_score": 0.5339575029973977,
+          "text_similarity": 0.0848937574934943,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0254.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
+        },
+        {
+          "species_name": "Porites colonensis",
+          "rank": 3,
+          "composite_score": 0.5337000402279183,
+          "text_similarity": 0.11050010056979596,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0050.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
+        },
+        {
+          "species_name": "Polyphyllia talpina",
+          "rank": 4,
+          "composite_score": 0.5317882053414918,
+          "text_similarity": 0.0794705133537296,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0275.jpg",
+          "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
+          "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
+        },
+        {
+          "species_name": "Acropora pharaonis",
+          "rank": 5,
+          "composite_score": 0.5262712974230699,
+          "text_similarity": 0.06567824355767482,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:Sheltered reef slopes.",
+          "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
+        },
+        {
+          "species_name": "Ctenella chagius",
+          "rank": 6,
+          "composite_score": 0.5237177346949371,
+          "text_similarity": 0.08554433673734298,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0107.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are mostly submassive and meandroid. Valleys are highly conv..."
+        },
+        {
+          "species_name": "Acropora tizardi",
+          "rank": 7,
+          "composite_score": 0.5047993586651254,
+          "text_similarity": 0.09074839666281331,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common in Vietnam.",
+          "hand_image_filename": "hand_image_0007.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are caespitose, composed of thin branches which interlock in..."
+        },
+        {
+          "species_name": "Pachyseris speciosa",
+          "rank": 8,
+          "composite_score": 0.49917222099400194,
+          "text_similarity": 0.12293055248500484,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:All reef habitats but most common on lower reef slopes.",
+          "characteristics": "Characters:Colonies are unifacial laminae, usually horizontal, which may develop..."
+        },
+        {
+          "species_name": "Porites lichen",
+          "rank": 9,
+          "composite_score": 0.48576150239340954,
+          "text_similarity": 0.08940375598352389,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common and usually conspicuous.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:Frequently a dominant species of lagoons and reef slopes.",
+          "characteristics": "Characters:Colonies are flat laminae or plates, or fused nodules and columns. Co..."
+        },
+        {
+          "species_name": "Acropora nasuta",
+          "rank": 10,
+          "composite_score": 0.48518532274624926,
+          "text_similarity": 0.08796330686562315,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:AllAcroporaassemblages but especially those of upper reef slopes.",
+          "characteristics": "Characters:Colonies are irregularly corymbose with elongate tapering branchlets...."
+        }
+      ]
+    },
+    {
+      "reef_id": 4,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Plateau",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                99.749558,
+                6.23332
+              ],
+              [
+                99.747447,
+                6.230939
+              ],
+              [
+                99.74327,
+                6.232422
+              ],
+              [
+                99.74327,
+                6.23332
+              ],
+              [
+                99.749558,
+                6.23332
+              ]
+            ],
+            [
+              [
+                99.745336,
+                6.232871
+              ],
+              [
+                99.745336,
+                6.232691
+              ],
+              [
+                99.745516,
+                6.232781
+              ],
+              [
+                99.745516,
+                6.232961
+              ],
+              [
+                99.745336,
+                6.232871
+              ]
+            ],
+            [
+              [
+                99.743719,
+                6.232781
+              ],
+              [
+                99.743719,
+                6.232601
+              ],
+              [
+                99.743899,
+                6.232422
+              ],
+              [
+                99.743899,
+                6.232781
+              ],
+              [
+                99.743719,
+                6.232781
+              ]
+            ],
+            [
+              [
+                99.745516,
+                6.23305
+              ],
+              [
+                99.745516,
+                6.23314
+              ],
+              [
+                99.745426,
+                6.23314
+              ],
+              [
+                99.745426,
+                6.23305
+              ],
+              [
+                99.745516,
+                6.23305
+              ]
+            ],
+            [
+              [
+                99.747492,
+                6.23305
+              ],
+              [
+                99.747492,
+                6.23314
+              ],
+              [
+                99.747402,
+                6.23314
+              ],
+              [
+                99.747402,
+                6.23305
+              ],
+              [
+                99.747492,
+                6.23305
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                98.483742,
+                7.76872
+              ],
+              [
+                98.484101,
+                7.765666
+              ],
+              [
+                98.482754,
+                7.765397
+              ],
+              [
+                98.483562,
+                7.766834
+              ],
+              [
+                98.483742,
+                7.76872
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Acanthastrea hillae",
+          "rank": 1,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common only in high latitude locations.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are cerioid and usually small but sometimes over 1.5 metres ..."
+        },
+        {
+          "species_name": "Acropora abrolhosensis",
+          "rank": 2,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common, especially at the Houtman Abrolhos Islands of south-west Australia.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:Lagoons or reef slopes protected from strong wave action.",
+          "characteristics": "Characters:Colonies are arborescent with straight cylindrical branches. These ma..."
+        },
+        {
+          "species_name": "Acropora carduus",
+          "rank": 3,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Deep water or protected reef backs and lagoons.",
+          "characteristics": "Characters:Colonies form bottlebrush thickets with upright or prostrate main bra..."
+        },
+        {
+          "species_name": "Acropora cerealis",
+          "rank": 4,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:Upper reef slopes.",
+          "characteristics": "Characters:Colonies are caespitose or corymbose, composed of branches which inte..."
+        },
+        {
+          "species_name": "Acropora chesterfieldensis",
+          "rank": 5,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common on the Chesterfield Reefs and Norfolk Island, rare elsewhere.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Reef slopes and lagoons.",
+          "characteristics": "Characters:Colonies are digitate clumps, sometimes forming large stands. Branche..."
+        },
+        {
+          "species_name": "Acropora clathrata",
+          "rank": 6,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Upper reef slopes, back reef margins and fringing reefs.",
+          "characteristics": "Characters:Colonies are tables, usually side-attached, with generally horizontal..."
+        },
+        {
+          "species_name": "Acropora cophodactyla",
+          "rank": 7,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Rarely common.",
+          "hand_image_filename": "hand_image_0007.jpg",
+          "habitat": "Habitat:Exposed upper reef slopes and flats.",
+          "characteristics": "Characters:Colonies are digitate bushes with an extensive encrusting base. Branc..."
+        },
+        {
+          "species_name": "Acropora cytherea",
+          "rank": 8,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common and conspicuous.",
+          "hand_image_filename": "hand_image_0053.jpg",
+          "habitat": "Habitat:Upper reef slopes and lagoons.",
+          "characteristics": "Characters:Colonies are wide flat tables which are usually thin and finely struc..."
+        },
+        {
+          "species_name": "Acropora desalwii",
+          "rank": 9,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Shallow protected reefs.",
+          "characteristics": "Characters:Colonies are corymbose plates with crowded branchlets. Branchlets at ..."
+        },
+        {
+          "species_name": "Acropora divaricata",
+          "rank": 10,
+          "composite_score": 0.3,
+          "text_similarity": 0.0,
+          "keyword_similarity": 0.0,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common, may be a dominant species.",
+          "hand_image_filename": "hand_image_0239.jpg",
+          "habitat": "Habitat:Upper reef slopes, lagoons and fringing reefs.",
+          "characteristics": "Characters:Colonies are generally branching and vary from perforated plates to c..."
+        }
+      ]
+    },
+    {
+      "reef_id": 5,
+      "benthic_class": "Rock",
+      "geomorphic_class": "Shallow Lagoon",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.883981,
+                22.654119
+              ],
+              [
+                38.884026,
+                22.65376
+              ],
+              [
+                38.883577,
+                22.652547
+              ],
+              [
+                38.882948,
+                22.651424
+              ],
+              [
+                38.882993,
+                22.651065
+              ],
+              [
+                38.882319,
+                22.650571
+              ],
+              [
+                38.883981,
+                22.654119
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.644805,
+                23.417552
+              ],
+              [
+                38.646332,
+                23.404302
+              ],
+              [
+                38.641391,
+                23.407985
+              ],
+              [
+                38.640403,
+                23.403988
+              ],
+              [
+                38.640134,
+                23.417822
+              ],
+              [
+                38.644805,
+                23.417552
+              ]
+            ],
+            [
+              [
+                38.640493,
+                23.417328
+              ],
+              [
+                38.640897,
+                23.417193
+              ],
+              [
+                38.641032,
+                23.417462
+              ],
+              [
+                38.640493,
+                23.417642
+              ],
+              [
+                38.640493,
+                23.417328
+              ]
+            ],
+            [
+              [
+                38.642963,
+                23.412118
+              ],
+              [
+                38.643053,
+                23.412297
+              ],
+              [
+                38.642873,
+                23.412342
+              ],
+              [
+                38.642873,
+                23.412207
+              ],
+              [
+                38.642963,
+                23.412118
+              ]
+            ],
+            [
+              [
+                38.642604,
+                23.411983
+              ],
+              [
+                38.642379,
+                23.411399
+              ],
+              [
+                38.643457,
+                23.41095
+              ],
+              [
+                38.643323,
+                23.411848
+              ],
+              [
+                38.642604,
+                23.411983
+              ]
+            ],
+            [
+              [
+                38.644805,
+                23.406683
+              ],
+              [
+                38.645209,
+                23.406548
+              ],
+              [
+                38.645344,
+                23.406773
+              ],
+              [
+                38.644895,
+                23.406862
+              ],
+              [
+                38.644805,
+                23.406683
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Siderastrea stellata",
+          "rank": 1,
+          "composite_score": 0.5954738742605061,
+          "text_similarity": 0.23868468565126538,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Shallow lagoons and intertidal pools.",
+          "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
+        },
+        {
+          "species_name": "Porites desilveri",
+          "rank": 2,
+          "composite_score": 0.5022021074610359,
+          "text_similarity": 0.13050526865258982,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Shallow reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
+        },
+        {
+          "species_name": "Acropora lovelli",
+          "rank": 3,
+          "composite_score": 0.49536477939287776,
+          "text_similarity": 0.11341194848219448,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
+          "hand_image_filename": "hand_image_0106.jpg",
+          "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
+          "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
+        },
+        {
+          "species_name": "Acropora sekiseiensis",
+          "rank": 4,
+          "composite_score": 0.49402006438793583,
+          "text_similarity": 0.11005016096983962,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
+          "hand_image_filename": "hand_image_0060.jpg",
+          "habitat": "Habitat:Shallow lagoons and reefs.",
+          "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
+        },
+        {
+          "species_name": "Diploria strigosa",
+          "rank": 5,
+          "composite_score": 0.4936940955238326,
+          "text_similarity": 0.1842352388095815,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Diploria clivosa",
+          "rank": 6,
+          "composite_score": 0.49239691041427625,
+          "text_similarity": 0.18099227603569065,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Montipora digitata",
+          "rank": 7,
+          "composite_score": 0.4830560947841415,
+          "text_similarity": 0.3076402369603538,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0063.jpg",
+          "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
+          "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
+        },
+        {
+          "species_name": "Caulastrea tumida",
+          "rank": 8,
+          "composite_score": 0.48167404114622303,
+          "text_similarity": 0.2666851028655575,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common only in Western Australia and Japan.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
+          "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
+        },
+        {
+          "species_name": "Porites heronensis",
+          "rank": 9,
+          "composite_score": 0.4764249802990607,
+          "text_similarity": 0.2910624507476518,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
+          "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
+        },
+        {
+          "species_name": "Pavona frondifera",
+          "rank": 10,
+          "composite_score": 0.46956186655833776,
+          "text_similarity": 0.23640466639584443,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Generally common.",
+          "hand_image_filename": "hand_image_0239.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are thin plates and/or contorted fronds with narrow bases an..."
+        }
+      ]
+    },
+    {
+      "reef_id": 6,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Inner Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                124.359085,
+                -6.024551
+              ],
+              [
+                124.37211,
+                -6.028235
+              ],
+              [
+                124.372739,
+                -6.029313
+              ],
+              [
+                124.359085,
+                -6.025809
+              ],
+              [
+                124.359085,
+                -6.024551
+              ]
+            ],
+            [
+              [
+                124.367035,
+                -6.028145
+              ],
+              [
+                124.36717,
+                -6.028055
+              ],
+              [
+                124.36699,
+                -6.027965
+              ],
+              [
+                124.366945,
+                -6.028055
+              ],
+              [
+                124.367035,
+                -6.028145
+              ]
+            ],
+            [
+              [
+                124.366137,
+                -6.02792
+              ],
+              [
+                124.36681,
+                -6.027875
+              ],
+              [
+                124.365373,
+                -6.027516
+              ],
+              [
+                124.365822,
+                -6.027875
+              ],
+              [
+                124.366137,
+                -6.02792
+              ]
+            ],
+            [
+              [
+                124.36681,
+                -6.027965
+              ],
+              [
+                124.3669,
+                -6.027965
+              ],
+              [
+                124.3669,
+                -6.02792
+              ],
+              [
+                124.36681,
+                -6.02792
+              ],
+              [
+                124.36681,
+                -6.027965
+              ]
+            ],
+            [
+              [
+                124.365508,
+                -6.027067
+              ],
+              [
+                124.365508,
+                -6.027022
+              ],
+              [
+                124.365463,
+                -6.027022
+              ],
+              [
+                124.365463,
+                -6.027067
+              ],
+              [
+                124.365508,
+                -6.027067
+              ]
+            ],
+            [
+              [
+                124.365508,
+                -6.027112
+              ],
+              [
+                124.365687,
+                -6.027201
+              ],
+              [
+                124.366092,
+                -6.027157
+              ],
+              [
+                124.366092,
+                -6.027246
+              ],
+              [
+                124.366182,
+                -6.027246
+              ],
+              [
+                124.366137,
+                -6.027112
+              ],
+              [
+                124.365508,
+                -6.027112
+              ]
+            ],
+            [
+              [
+                124.369954,
+                -6.028055
+              ],
+              [
+                124.36973,
+                -6.02801
+              ],
+              [
+                124.370179,
+                -6.028145
+              ],
+              [
+                124.370179,
+                -6.028055
+              ],
+              [
+                124.369954,
+                -6.028055
+              ]
+            ],
+            [
+              [
+                124.370224,
+                -6.028055
+              ],
+              [
+                124.370224,
+                -6.02801
+              ],
+              [
+                124.370179,
+                -6.02801
+              ],
+              [
+                124.370179,
+                -6.028055
+              ],
+              [
+                124.370224,
+                -6.028055
+              ]
+            ],
+            [
+              [
+                124.359489,
+                -6.025495
+              ],
+              [
+                124.359489,
+                -6.02545
+              ],
+              [
+                124.359444,
+                -6.02545
+              ],
+              [
+                124.359444,
+                -6.025495
+              ],
+              [
+                124.359489,
+                -6.025495
+              ]
+            ],
+            [
+              [
+                124.365732,
+                -6.027291
+              ],
+              [
+                124.366002,
+                -6.027336
+              ],
+              [
+                124.366002,
+                -6.027246
+              ],
+              [
+                124.365687,
+                -6.027246
+              ],
+              [
+                124.365732,
+                -6.027291
+              ]
+            ],
+            [
+              [
+                124.366271,
+                -6.027246
+              ],
+              [
+                124.366271,
+                -6.027201
+              ],
+              [
+                124.366226,
+                -6.027201
+              ],
+              [
+                124.366226,
+                -6.027246
+              ],
+              [
+                124.366271,
+                -6.027246
+              ]
+            ],
+            [
+              [
+                124.371706,
+                -6.028729
+              ],
+              [
+                124.371706,
+                -6.028684
+              ],
+              [
+                124.371616,
+                -6.028684
+              ],
+              [
+                124.371616,
+                -6.028729
+              ],
+              [
+                124.371706,
+                -6.028729
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                123.859532,
+                -5.801096
+              ],
+              [
+                123.859936,
+                -5.802443
+              ],
+              [
+                123.856298,
+                -5.802263
+              ],
+              [
+                123.858499,
+                -5.802263
+              ],
+              [
+                123.859532,
+                -5.801096
+              ]
+            ],
+            [
+              [
+                123.859038,
+                -5.802533
+              ],
+              [
+                123.858993,
+                -5.802533
+              ],
+              [
+                123.858993,
+                -5.802578
+              ],
+              [
+                123.859083,
+                -5.802578
+              ],
+              [
+                123.859038,
+                -5.802533
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Porites echinulata",
+          "rank": 1,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 2,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 3,
+          "composite_score": 0.4834195887063416,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.2222222222222222,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 7,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 8,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 9,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        },
+        {
+          "species_name": "Merulina scabricula",
+          "rank": 10,
+          "composite_score": 0.4504121439844836,
+          "text_similarity": 0.26888750281835194,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0242.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons and upper slopes.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        }
+      ]
+    },
+    {
+      "reef_id": 7,
+      "benthic_class": "Seagrass",
+      "geomorphic_class": "Outer Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -86.184089,
+                16.410725
+              ],
+              [
+                -86.184089,
+                16.41385
+              ],
+              [
+                -86.180964,
+                16.41385
+              ],
+              [
+                -86.180964,
+                16.410725
+              ],
+              [
+                -86.184089,
+                16.410725
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -85.823515,
+                16.469982
+              ],
+              [
+                -85.825222,
+                16.461628
+              ],
+              [
+                -85.832768,
+                16.461583
+              ],
+              [
+                -85.827692,
+                16.469892
+              ],
+              [
+                -85.823515,
+                16.469982
+              ]
+            ],
+            [
+              [
+                -85.831106,
+                16.465311
+              ],
+              [
+                -85.831106,
+                16.465221
+              ],
+              [
+                -85.831061,
+                16.465221
+              ],
+              [
+                -85.831061,
+                16.465311
+              ],
+              [
+                -85.831106,
+                16.465311
+              ]
+            ],
+            [
+              [
+                -85.826524,
+                16.464188
+              ],
+              [
+                -85.827243,
+                16.464008
+              ],
+              [
+                -85.827647,
+                16.46284
+              ],
+              [
+                -85.82639,
+                16.463155
+              ],
+              [
+                -85.825985,
+                16.462975
+              ],
+              [
+                -85.826524,
+                16.464188
+              ]
+            ],
+            [
+              [
+                -85.827513,
+                16.465311
+              ],
+              [
+                -85.827378,
+                16.465715
+              ],
+              [
+                -85.827827,
+                16.46585
+              ],
+              [
+                -85.827962,
+                16.465356
+              ],
+              [
+                -85.827513,
+                16.465311
+              ]
+            ],
+            [
+              [
+                -85.827198,
+                16.462346
+              ],
+              [
+                -85.826839,
+                16.462211
+              ],
+              [
+                -85.826569,
+                16.462616
+              ],
+              [
+                -85.827019,
+                16.46293
+              ],
+              [
+                -85.827198,
+                16.462346
+              ]
+            ],
+            [
+              [
+                -85.826524,
+                16.462616
+              ],
+              [
+                -85.826524,
+                16.462706
+              ],
+              [
+                -85.826569,
+                16.462706
+              ],
+              [
+                -85.826569,
+                16.462616
+              ],
+              [
+                -85.826524,
+                16.462616
+              ]
+            ],
+            [
+              [
+                -85.826524,
+                16.46284
+              ],
+              [
+                -85.82648,
+                16.46275
+              ],
+              [
+                -85.82639,
+                16.462795
+              ],
+              [
+                -85.82639,
+                16.46284
+              ],
+              [
+                -85.826524,
+                16.46284
+              ]
+            ],
+            [
+              [
+                -85.825761,
+                16.464817
+              ],
+              [
+                -85.825671,
+                16.464547
+              ],
+              [
+                -85.825626,
+                16.464547
+              ],
+              [
+                -85.825671,
+                16.465086
+              ],
+              [
+                -85.825761,
+                16.464817
+              ]
+            ],
+            [
+              [
+                -85.827153,
+                16.46293
+              ],
+              [
+                -85.827198,
+                16.46293
+              ],
+              [
+                -85.827198,
+                16.462795
+              ],
+              [
+                -85.827153,
+                16.462795
+              ],
+              [
+                -85.827153,
+                16.46293
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Porites echinulata",
+          "rank": 1,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 2,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 3,
+          "composite_score": 0.4834195887063416,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.2222222222222222,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Acropora nana",
+          "rank": 7,
+          "composite_score": 0.4595275318738217,
+          "text_similarity": 0.027568829684554277,
+          "keyword_similarity": 0.6,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
+          "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 8,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 9,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 10,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        }
+      ]
+    },
+    {
+      "reef_id": 8,
+      "benthic_class": "Sand",
+      "geomorphic_class": "Shallow Lagoon",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153.396408,
+                -11.278169
+              ],
+              [
+                153.396542,
+                -11.278573
+              ],
+              [
+                153.395959,
+                -11.279292
+              ],
+              [
+                153.393309,
+                -11.278932
+              ],
+              [
+                153.396408,
+                -11.278169
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152.36887,
+                -10.713263
+              ],
+              [
+                152.366804,
+                -10.713308
+              ],
+              [
+                152.368915,
+                -10.70958
+              ],
+              [
+                152.368915,
+                -10.713263
+              ],
+              [
+                152.36887,
+                -10.713263
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Siderastrea stellata",
+          "rank": 1,
+          "composite_score": 0.5954738742605061,
+          "text_similarity": 0.23868468565126538,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Shallow lagoons and intertidal pools.",
+          "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
+        },
+        {
+          "species_name": "Porites desilveri",
+          "rank": 2,
+          "composite_score": 0.5022021074610359,
+          "text_similarity": 0.13050526865258982,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Shallow reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
+        },
+        {
+          "species_name": "Siderastrea savignyana",
+          "rank": 3,
+          "composite_score": 0.49549169489756284,
+          "text_similarity": 0.1362292372439071,
+          "keyword_similarity": 0.75,
+          "abundance_factor": 0.72,
+          "abundance_level": "Abundance:Uncommon.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Shallow reef environments or sandy lagoons. Colonies are often partly buried in sand.",
+          "characteristics": "Characters:Colonies are encrusting or are low mounds up to one metre across. Cor..."
+        },
+        {
+          "species_name": "Acropora lovelli",
+          "rank": 4,
+          "composite_score": 0.49536477939287776,
+          "text_similarity": 0.11341194848219448,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
+          "hand_image_filename": "hand_image_0106.jpg",
+          "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
+          "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
+        },
+        {
+          "species_name": "Acropora sekiseiensis",
+          "rank": 5,
+          "composite_score": 0.49402006438793583,
+          "text_similarity": 0.11005016096983962,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
+          "hand_image_filename": "hand_image_0060.jpg",
+          "habitat": "Habitat:Shallow lagoons and reefs.",
+          "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
+        },
+        {
+          "species_name": "Diploria strigosa",
+          "rank": 6,
+          "composite_score": 0.4936940955238326,
+          "text_similarity": 0.1842352388095815,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Diploria clivosa",
+          "rank": 7,
+          "composite_score": 0.49239691041427625,
+          "text_similarity": 0.18099227603569065,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Montipora digitata",
+          "rank": 8,
+          "composite_score": 0.4830560947841415,
+          "text_similarity": 0.3076402369603538,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0063.jpg",
+          "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
+          "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
+        },
+        {
+          "species_name": "Caulastrea tumida",
+          "rank": 9,
+          "composite_score": 0.48167404114622303,
+          "text_similarity": 0.2666851028655575,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common only in Western Australia and Japan.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
+          "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
+        },
+        {
+          "species_name": "Porites heronensis",
+          "rank": 10,
+          "composite_score": 0.4764249802990607,
+          "text_similarity": 0.2910624507476518,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
+          "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
+        }
+      ]
+    },
+    {
+      "reef_id": 9,
+      "benthic_class": "Rubble",
+      "geomorphic_class": "Terrestrial Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                119.982762,
+                16.240103
+              ],
+              [
+                119.986445,
+                16.237947
+              ],
+              [
+                119.984289,
+                16.235477
+              ],
+              [
+                119.982987,
+                16.235567
+              ],
+              [
+                119.982807,
+                16.238306
+              ],
+              [
+                119.981684,
+                16.237722
+              ],
+              [
+                119.981639,
+                16.23916
+              ],
+              [
+                119.9811,
+                16.237857
+              ],
+              [
+                119.980561,
+                16.237947
+              ],
+              [
+                119.979933,
+                16.238711
+              ],
+              [
+                119.980786,
+                16.239923
+              ],
+              [
+                119.982762,
+                16.240103
+              ]
+            ],
+            [
+              [
+                119.983571,
+                16.238531
+              ],
+              [
+                119.983301,
+                16.238396
+              ],
+              [
+                119.983481,
+                16.237947
+              ],
+              [
+                119.983661,
+                16.237947
+              ],
+              [
+                119.983571,
+                16.238531
+              ]
+            ],
+            [
+              [
+                119.983346,
+                16.237992
+              ],
+              [
+                119.983167,
+                16.238127
+              ],
+              [
+                119.983167,
+                16.237812
+              ],
+              [
+                119.983301,
+                16.237812
+              ],
+              [
+                119.983346,
+                16.237992
+              ]
+            ],
+            [
+              [
+                119.983167,
+                16.238172
+              ],
+              [
+                119.983077,
+                16.238172
+              ],
+              [
+                119.983077,
+                16.238127
+              ],
+              [
+                119.983167,
+                16.238127
+              ],
+              [
+                119.983167,
+                16.238172
+              ]
+            ],
+            [
+              [
+                119.982628,
+                16.238396
+              ],
+              [
+                119.982672,
+                16.238756
+              ],
+              [
+                119.982178,
+                16.238306
+              ],
+              [
+                119.982538,
+                16.238217
+              ],
+              [
+                119.982628,
+                16.238396
+              ]
+            ],
+            [
+              [
+                119.982628,
+                16.2388
+              ],
+              [
+                119.982583,
+                16.2388
+              ],
+              [
+                119.982583,
+                16.238756
+              ],
+              [
+                119.982628,
+                16.238756
+              ],
+              [
+                119.982628,
+                16.2388
+              ]
+            ],
+            [
+              [
+                119.980741,
+                16.238351
+              ],
+              [
+                119.980651,
+                16.238127
+              ],
+              [
+                119.980786,
+                16.238082
+              ],
+              [
+                119.980831,
+                16.238396
+              ],
+              [
+                119.980741,
+                16.238351
+              ]
+            ],
+            [
+              [
+                119.983571,
+                16.235926
+              ],
+              [
+                119.983616,
+                16.235926
+              ],
+              [
+                119.98375,
+                16.235656
+              ],
+              [
+                119.983795,
+                16.236016
+              ],
+              [
+                119.983571,
+                16.235926
+              ]
+            ],
+            [
+              [
+                119.982583,
+                16.237453
+              ],
+              [
+                119.982628,
+                16.237453
+              ],
+              [
+                119.982628,
+                16.237498
+              ],
+              [
+                119.982583,
+                16.237498
+              ],
+              [
+                119.982583,
+                16.237453
+              ]
+            ],
+            [
+              [
+                119.983571,
+                16.235387
+              ],
+              [
+                119.983616,
+                16.235387
+              ],
+              [
+                119.983616,
+                16.235432
+              ],
+              [
+                119.983571,
+                16.235432
+              ],
+              [
+                119.983571,
+                16.235387
+              ]
+            ],
+            [
+              [
+                119.983661,
+                16.237318
+              ],
+              [
+                119.983706,
+                16.236959
+              ],
+              [
+                119.98402,
+                16.237543
+              ],
+              [
+                119.983795,
+                16.237543
+              ],
+              [
+                119.983661,
+                16.237318
+              ]
+            ],
+            [
+              [
+                119.983256,
+                16.236645
+              ],
+              [
+                119.983301,
+                16.236824
+              ],
+              [
+                119.983077,
+                16.236824
+              ],
+              [
+                119.983122,
+                16.23651
+              ],
+              [
+                119.983256,
+                16.236645
+              ]
+            ],
+            [
+              [
+                119.983436,
+                16.237139
+              ],
+              [
+                119.983346,
+                16.237139
+              ],
+              [
+                119.983346,
+                16.237094
+              ],
+              [
+                119.983481,
+                16.237094
+              ],
+              [
+                119.983436,
+                16.237139
+              ]
+            ],
+            [
+              [
+                119.9842,
+                16.237722
+              ],
+              [
+                119.984155,
+                16.237543
+              ],
+              [
+                119.984289,
+                16.237543
+              ],
+              [
+                119.984334,
+                16.237722
+              ],
+              [
+                119.9842,
+                16.237722
+              ]
+            ],
+            [
+              [
+                119.982493,
+                16.23907
+              ],
+              [
+                119.982538,
+                16.23907
+              ],
+              [
+                119.982538,
+                16.239115
+              ],
+              [
+                119.982493,
+                16.239115
+              ],
+              [
+                119.982493,
+                16.23907
+              ]
+            ],
+            [
+              [
+                119.983077,
+                16.238217
+              ],
+              [
+                119.983211,
+                16.238217
+              ],
+              [
+                119.983211,
+                16.238306
+              ],
+              [
+                119.983077,
+                16.238351
+              ],
+              [
+                119.983077,
+                16.238217
+              ]
+            ],
+            [
+              [
+                119.9811,
+                16.239744
+              ],
+              [
+                119.981055,
+                16.239609
+              ],
+              [
+                119.98128,
+                16.239654
+              ],
+              [
+                119.981235,
+                16.239789
+              ],
+              [
+                119.9811,
+                16.239744
+              ]
+            ],
+            [
+              [
+                119.981909,
+                16.239654
+              ],
+              [
+                119.981954,
+                16.239654
+              ],
+              [
+                119.981954,
+                16.239699
+              ],
+              [
+                119.981909,
+                16.239699
+              ],
+              [
+                119.981909,
+                16.239654
+              ]
+            ],
+            [
+              [
+                119.981864,
+                16.239654
+              ],
+              [
+                119.981819,
+                16.239654
+              ],
+              [
+                119.981819,
+                16.239609
+              ],
+              [
+                119.981909,
+                16.239609
+              ],
+              [
+                119.981864,
+                16.239654
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                120.042321,
+                16.189258
+              ],
+              [
+                120.043578,
+                16.18297
+              ],
+              [
+                120.038278,
+                16.184138
+              ],
+              [
+                120.038368,
+                16.187102
+              ],
+              [
+                120.042321,
+                16.189258
+              ]
+            ],
+            [
+              [
+                120.043129,
+                16.186788
+              ],
+              [
+                120.043174,
+                16.186788
+              ],
+              [
+                120.043174,
+                16.186833
+              ],
+              [
+                120.043129,
+                16.186833
+              ],
+              [
+                120.043129,
+                16.186788
+              ]
+            ],
+            [
+              [
+                120.042815,
+                16.187821
+              ],
+              [
+                120.042904,
+                16.187821
+              ],
+              [
+                120.042904,
+                16.187911
+              ],
+              [
+                120.04286,
+                16.187911
+              ],
+              [
+                120.042815,
+                16.187821
+              ]
+            ],
+            [
+              [
+                120.043219,
+                16.186833
+              ],
+              [
+                120.043264,
+                16.186833
+              ],
+              [
+                120.043264,
+                16.186878
+              ],
+              [
+                120.043219,
+                16.186878
+              ],
+              [
+                120.043219,
+                16.186833
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 1,
+          "composite_score": 0.5292529220396749,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.375,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Porites echinulata",
+          "rank": 2,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 3,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 7,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Podabacia kunzmanni",
+          "rank": 8,
+          "composite_score": 0.45534018216467365,
+          "text_similarity": 0.03960045541168423,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0215.jpg",
+          "habitat": "Habitat:Occurs on reef rubble.",
+          "characteristics": "Characters:Colonies are small side-or centrally attached plates. A central coral..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 9,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 10,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        }
+      ]
+    },
+    {
+      "reef_id": 10,
+      "benthic_class": "Rubble",
+      "geomorphic_class": "Terrestrial Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                106.548278,
+                -5.597537
+              ],
+              [
+                106.551871,
+                -5.598525
+              ],
+              [
+                106.55214,
+                -5.600457
+              ],
+              [
+                106.545178,
+                -5.599379
+              ],
+              [
+                106.548278,
+                -5.597537
+              ]
+            ],
+            [
+              [
+                106.548682,
+                -5.597717
+              ],
+              [
+                106.548682,
+                -5.597762
+              ],
+              [
+                106.548727,
+                -5.597762
+              ],
+              [
+                106.548727,
+                -5.597717
+              ],
+              [
+                106.548682,
+                -5.597717
+              ]
+            ],
+            [
+              [
+                106.548637,
+                -5.597762
+              ],
+              [
+                106.548637,
+                -5.597807
+              ],
+              [
+                106.548682,
+                -5.597807
+              ],
+              [
+                106.548682,
+                -5.597762
+              ],
+              [
+                106.548637,
+                -5.597762
+              ]
+            ],
+            [
+              [
+                106.550523,
+                -5.599558
+              ],
+              [
+                106.550389,
+                -5.599873
+              ],
+              [
+                106.550883,
+                -5.599469
+              ],
+              [
+                106.550613,
+                -5.599424
+              ],
+              [
+                106.550523,
+                -5.599558
+              ]
+            ],
+            [
+              [
+                106.545987,
+                -5.598391
+              ],
+              [
+                106.545987,
+                -5.598346
+              ],
+              [
+                106.545942,
+                -5.598346
+              ],
+              [
+                106.545942,
+                -5.598391
+              ],
+              [
+                106.545987,
+                -5.598391
+              ]
+            ],
+            [
+              [
+                106.546122,
+                -5.598256
+              ],
+              [
+                106.546166,
+                -5.598256
+              ],
+              [
+                106.546166,
+                -5.598211
+              ],
+              [
+                106.546122,
+                -5.598211
+              ],
+              [
+                106.546122,
+                -5.598256
+              ]
+            ],
+            [
+              [
+                106.546526,
+                -5.59893
+              ],
+              [
+                106.546481,
+                -5.598975
+              ],
+              [
+                106.546571,
+                -5.598975
+              ],
+              [
+                106.546571,
+                -5.59884
+              ],
+              [
+                106.546526,
+                -5.59893
+              ]
+            ],
+            [
+              [
+                106.54976,
+                -5.600053
+              ],
+              [
+                106.549805,
+                -5.600053
+              ],
+              [
+                106.549805,
+                -5.600008
+              ],
+              [
+                106.54976,
+                -5.600008
+              ],
+              [
+                106.54976,
+                -5.600053
+              ]
+            ],
+            [
+              [
+                106.548547,
+                -5.599738
+              ],
+              [
+                106.548412,
+                -5.599693
+              ],
+              [
+                106.548367,
+                -5.599783
+              ],
+              [
+                106.548457,
+                -5.599828
+              ],
+              [
+                106.548547,
+                -5.599738
+              ]
+            ],
+            [
+              [
+                106.548772,
+                -5.597897
+              ],
+              [
+                106.548727,
+                -5.597942
+              ],
+              [
+                106.548861,
+                -5.598076
+              ],
+              [
+                106.548906,
+                -5.597942
+              ],
+              [
+                106.548772,
+                -5.597897
+              ]
+            ],
+            [
+              [
+                106.547559,
+                -5.599558
+              ],
+              [
+                106.547559,
+                -5.599424
+              ],
+              [
+                106.547424,
+                -5.599424
+              ],
+              [
+                106.547424,
+                -5.599603
+              ],
+              [
+                106.547559,
+                -5.599558
+              ]
+            ],
+            [
+              [
+                106.551287,
+                -5.600053
+              ],
+              [
+                106.551332,
+                -5.600053
+              ],
+              [
+                106.551332,
+                -5.600008
+              ],
+              [
+                106.551287,
+                -5.600008
+              ],
+              [
+                106.551287,
+                -5.600053
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                106.36786,
+                -5.940549
+              ],
+              [
+                106.36786,
+                -5.937424
+              ],
+              [
+                106.370985,
+                -5.937424
+              ],
+              [
+                106.370985,
+                -5.940549
+              ],
+              [
+                106.36786,
+                -5.940549
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 1,
+          "composite_score": 0.5292529220396749,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.375,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Porites echinulata",
+          "rank": 2,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 3,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 7,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Podabacia kunzmanni",
+          "rank": 8,
+          "composite_score": 0.45534018216467365,
+          "text_similarity": 0.03960045541168423,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0215.jpg",
+          "habitat": "Habitat:Occurs on reef rubble.",
+          "characteristics": "Characters:Colonies are small side-or centrally attached plates. A central coral..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 9,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 10,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        }
+      ]
+    },
+    {
+      "reef_id": 11,
+      "benthic_class": "Rubble",
+      "geomorphic_class": "Shallow Lagoon",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -151.491755,
+                -16.837797
+              ],
+              [
+                -151.490946,
+                -16.84175
+              ],
+              [
+                -151.491126,
+                -16.842244
+              ],
+              [
+                -151.491979,
+                -16.841795
+              ],
+              [
+                -151.492608,
+                -16.842289
+              ],
+              [
+                -151.492024,
+                -16.842244
+              ],
+              [
+                -151.492563,
+                -16.843142
+              ],
+              [
+                -151.492563,
+                -16.843861
+              ],
+              [
+                -151.491665,
+                -16.843951
+              ],
+              [
+                -151.492339,
+                -16.843232
+              ],
+              [
+                -151.492159,
+                -16.842558
+              ],
+              [
+                -151.491755,
+                -16.842603
+              ],
+              [
+                -151.490048,
+                -16.844355
+              ],
+              [
+                -151.491755,
+                -16.837797
+              ]
+            ],
+            [
+              [
+                -151.492114,
+                -16.838022
+              ],
+              [
+                -151.492114,
+                -16.838067
+              ],
+              [
+                -151.492069,
+                -16.838067
+              ],
+              [
+                -151.492069,
+                -16.838022
+              ],
+              [
+                -151.492114,
+                -16.838022
+              ]
+            ],
+            [
+              [
+                -151.491665,
+                -16.840402
+              ],
+              [
+                -151.491979,
+                -16.840896
+              ],
+              [
+                -151.492518,
+                -16.841256
+              ],
+              [
+                -151.491665,
+                -16.841121
+              ],
+              [
+                -151.491665,
+                -16.840402
+              ]
+            ],
+            [
+              [
+                -151.492204,
+                -16.843187
+              ],
+              [
+                -151.492069,
+                -16.843187
+              ],
+              [
+                -151.492069,
+                -16.843052
+              ],
+              [
+                -151.492204,
+                -16.843052
+              ],
+              [
+                -151.492204,
+                -16.843187
+              ]
+            ],
+            [
+              [
+                -151.492608,
+                -16.843456
+              ],
+              [
+                -151.492608,
+                -16.843412
+              ],
+              [
+                -151.492653,
+                -16.843412
+              ],
+              [
+                -151.492653,
+                -16.843456
+              ],
+              [
+                -151.492608,
+                -16.843456
+              ]
+            ],
+            [
+              [
+                -151.492429,
+                -16.837932
+              ],
+              [
+                -151.492698,
+                -16.837977
+              ],
+              [
+                -151.492698,
+                -16.838381
+              ],
+              [
+                -151.492159,
+                -16.838067
+              ],
+              [
+                -151.492429,
+                -16.837932
+              ]
+            ],
+            [
+              [
+                -151.493057,
+                -16.843277
+              ],
+              [
+                -151.492923,
+                -16.843367
+              ],
+              [
+                -151.492923,
+                -16.843097
+              ],
+              [
+                -151.493102,
+                -16.843097
+              ],
+              [
+                -151.493057,
+                -16.843277
+              ]
+            ],
+            [
+              [
+                -151.492563,
+                -16.842962
+              ],
+              [
+                -151.492653,
+                -16.842962
+              ],
+              [
+                -151.492653,
+                -16.843052
+              ],
+              [
+                -151.492563,
+                -16.843007
+              ],
+              [
+                -151.492563,
+                -16.842962
+              ]
+            ],
+            [
+              [
+                -151.4918,
+                -16.842873
+              ],
+              [
+                -151.491979,
+                -16.843097
+              ],
+              [
+                -151.491934,
+                -16.843187
+              ],
+              [
+                -151.49171,
+                -16.843142
+              ],
+              [
+                -151.4918,
+                -16.842873
+              ]
+            ],
+            [
+              [
+                -151.491395,
+                -16.842244
+              ],
+              [
+                -151.491395,
+                -16.842199
+              ],
+              [
+                -151.49144,
+                -16.842199
+              ],
+              [
+                -151.49144,
+                -16.842244
+              ],
+              [
+                -151.491395,
+                -16.842244
+              ]
+            ],
+            [
+              [
+                -151.492204,
+                -16.838516
+              ],
+              [
+                -151.492249,
+                -16.83883
+              ],
+              [
+                -151.49189,
+                -16.838785
+              ],
+              [
+                -151.492114,
+                -16.838471
+              ],
+              [
+                -151.492204,
+                -16.838516
+              ]
+            ],
+            [
+              [
+                -151.491755,
+                -16.83874
+              ],
+              [
+                -151.49171,
+                -16.83883
+              ],
+              [
+                -151.49162,
+                -16.838785
+              ],
+              [
+                -151.491665,
+                -16.838695
+              ],
+              [
+                -151.491755,
+                -16.83874
+              ]
+            ],
+            [
+              [
+                -151.49162,
+                -16.841256
+              ],
+              [
+                -151.491575,
+                -16.841435
+              ],
+              [
+                -151.491351,
+                -16.84139
+              ],
+              [
+                -151.49144,
+                -16.841166
+              ],
+              [
+                -151.49162,
+                -16.841256
+              ]
+            ],
+            [
+              [
+                -151.492743,
+                -16.840178
+              ],
+              [
+                -151.492473,
+                -16.840357
+              ],
+              [
+                -151.492518,
+                -16.839773
+              ],
+              [
+                -151.492788,
+                -16.839998
+              ],
+              [
+                -151.492743,
+                -16.840178
+              ]
+            ],
+            [
+              [
+                -151.491126,
+                -16.841884
+              ],
+              [
+                -151.491081,
+                -16.84175
+              ],
+              [
+                -151.491261,
+                -16.841705
+              ],
+              [
+                -151.491261,
+                -16.841884
+              ],
+              [
+                -151.491126,
+                -16.841884
+              ]
+            ],
+            [
+              [
+                -151.492878,
+                -16.840627
+              ],
+              [
+                -151.492878,
+                -16.840582
+              ],
+              [
+                -151.492967,
+                -16.840582
+              ],
+              [
+                -151.492967,
+                -16.840627
+              ],
+              [
+                -151.492878,
+                -16.840627
+              ]
+            ],
+            [
+              [
+                -151.49162,
+                -16.84157
+              ],
+              [
+                -151.491575,
+                -16.841795
+              ],
+              [
+                -151.491395,
+                -16.841795
+              ],
+              [
+                -151.49144,
+                -16.841525
+              ],
+              [
+                -151.49162,
+                -16.84157
+              ]
+            ],
+            [
+              [
+                -151.49162,
+                -16.84404
+              ],
+              [
+                -151.49162,
+                -16.844175
+              ],
+              [
+                -151.491575,
+                -16.844175
+              ],
+              [
+                -151.49153,
+                -16.843995
+              ],
+              [
+                -151.49162,
+                -16.84404
+              ]
+            ],
+            [
+              [
+                -151.492204,
+                -16.839324
+              ],
+              [
+                -151.492204,
+                -16.839459
+              ],
+              [
+                -151.492069,
+                -16.839414
+              ],
+              [
+                -151.492114,
+                -16.839279
+              ],
+              [
+                -151.492204,
+                -16.839324
+              ]
+            ],
+            [
+              [
+                -151.492788,
+                -16.842064
+              ],
+              [
+                -151.492653,
+                -16.842064
+              ],
+              [
+                -151.492653,
+                -16.841525
+              ],
+              [
+                -151.492788,
+                -16.841525
+              ],
+              [
+                -151.492788,
+                -16.842064
+              ]
+            ],
+            [
+              [
+                -151.492204,
+                -16.840043
+              ],
+              [
+                -151.492204,
+                -16.839998
+              ],
+              [
+                -151.492249,
+                -16.839998
+              ],
+              [
+                -151.492249,
+                -16.840043
+              ],
+              [
+                -151.492204,
+                -16.840043
+              ]
+            ],
+            [
+              [
+                -151.492204,
+                -16.840088
+              ],
+              [
+                -151.492159,
+                -16.840088
+              ],
+              [
+                -151.492159,
+                -16.840043
+              ],
+              [
+                -151.492204,
+                -16.840043
+              ],
+              [
+                -151.492204,
+                -16.840088
+              ]
+            ],
+            [
+              [
+                -151.492833,
+                -16.844085
+              ],
+              [
+                -151.492833,
+                -16.843995
+              ],
+              [
+                -151.492923,
+                -16.843995
+              ],
+              [
+                -151.492923,
+                -16.844085
+              ],
+              [
+                -151.492833,
+                -16.844085
+              ]
+            ],
+            [
+              [
+                -151.490856,
+                -16.843951
+              ],
+              [
+                -151.490767,
+                -16.843995
+              ],
+              [
+                -151.490767,
+                -16.843861
+              ],
+              [
+                -151.490901,
+                -16.843906
+              ],
+              [
+                -151.490856,
+                -16.843951
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -150.960222,
+                -16.805323
+              ],
+              [
+                -150.961794,
+                -16.809321
+              ],
+              [
+                -150.964938,
+                -16.810443
+              ],
+              [
+                -150.964803,
+                -16.802224
+              ],
+              [
+                -150.960222,
+                -16.802224
+              ],
+              [
+                -150.960222,
+                -16.805323
+              ]
+            ],
+            [
+              [
+                -150.962917,
+                -16.809545
+              ],
+              [
+                -150.962467,
+                -16.809231
+              ],
+              [
+                -150.962827,
+                -16.808243
+              ],
+              [
+                -150.961569,
+                -16.806805
+              ],
+              [
+                -150.9635,
+                -16.808512
+              ],
+              [
+                -150.962917,
+                -16.809545
+              ]
+            ],
+            [
+              [
+                -150.96377,
+                -16.808332
+              ],
+              [
+                -150.96386,
+                -16.808512
+              ],
+              [
+                -150.96386,
+                -16.808737
+              ],
+              [
+                -150.963411,
+                -16.808198
+              ],
+              [
+                -150.96377,
+                -16.808332
+              ]
+            ],
+            [
+              [
+                -150.962557,
+                -16.803481
+              ],
+              [
+                -150.962378,
+                -16.803392
+              ],
+              [
+                -150.962647,
+                -16.803122
+              ],
+              [
+                -150.963096,
+                -16.803616
+              ],
+              [
+                -150.962557,
+                -16.803481
+              ]
+            ],
+            [
+              [
+                -150.964713,
+                -16.80712
+              ],
+              [
+                -150.964848,
+                -16.807344
+              ],
+              [
+                -150.964578,
+                -16.807389
+              ],
+              [
+                -150.964444,
+                -16.806985
+              ],
+              [
+                -150.964713,
+                -16.80712
+              ]
+            ],
+            [
+              [
+                -150.960671,
+                -16.802493
+              ],
+              [
+                -150.960985,
+                -16.802493
+              ],
+              [
+                -150.960985,
+                -16.802628
+              ],
+              [
+                -150.960671,
+                -16.802628
+              ],
+              [
+                -150.960671,
+                -16.802493
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Siderastrea stellata",
+          "rank": 1,
+          "composite_score": 0.5954738742605061,
+          "text_similarity": 0.23868468565126538,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Shallow lagoons and intertidal pools.",
+          "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
+        },
+        {
+          "species_name": "Porites desilveri",
+          "rank": 2,
+          "composite_score": 0.5022021074610359,
+          "text_similarity": 0.13050526865258982,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Shallow reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
+        },
+        {
+          "species_name": "Acropora lovelli",
+          "rank": 3,
+          "composite_score": 0.49536477939287776,
+          "text_similarity": 0.11341194848219448,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
+          "hand_image_filename": "hand_image_0106.jpg",
+          "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
+          "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
+        },
+        {
+          "species_name": "Acropora sekiseiensis",
+          "rank": 4,
+          "composite_score": 0.49402006438793583,
+          "text_similarity": 0.11005016096983962,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
+          "hand_image_filename": "hand_image_0060.jpg",
+          "habitat": "Habitat:Shallow lagoons and reefs.",
+          "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
+        },
+        {
+          "species_name": "Diploria strigosa",
+          "rank": 5,
+          "composite_score": 0.4936940955238326,
+          "text_similarity": 0.1842352388095815,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Diploria clivosa",
+          "rank": 6,
+          "composite_score": 0.49239691041427625,
+          "text_similarity": 0.18099227603569065,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Montipora digitata",
+          "rank": 7,
+          "composite_score": 0.4830560947841415,
+          "text_similarity": 0.3076402369603538,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0063.jpg",
+          "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
+          "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
+        },
+        {
+          "species_name": "Caulastrea tumida",
+          "rank": 8,
+          "composite_score": 0.48167404114622303,
+          "text_similarity": 0.2666851028655575,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common only in Western Australia and Japan.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
+          "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
+        },
+        {
+          "species_name": "Porites heronensis",
+          "rank": 9,
+          "composite_score": 0.4764249802990607,
+          "text_similarity": 0.2910624507476518,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
+          "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
+        },
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 10,
+          "composite_score": 0.47087147205149216,
+          "text_similarity": 0.10575010870015908,
+          "keyword_similarity": 0.42857142857142855,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        }
+      ]
+    },
+    {
+      "reef_id": 12,
+      "benthic_class": "Seagrass",
+      "geomorphic_class": "Shallow Lagoon",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -82.831721,
+                14.408034
+              ],
+              [
+                -82.831496,
+                14.408034
+              ],
+              [
+                -82.830553,
+                14.406372
+              ],
+              [
+                -82.832619,
+                14.404845
+              ],
+              [
+                -82.831721,
+                14.408034
+              ]
+            ],
+            [
+              [
+                -82.831631,
+                14.407091
+              ],
+              [
+                -82.831541,
+                14.407046
+              ],
+              [
+                -82.831496,
+                14.407136
+              ],
+              [
+                -82.831586,
+                14.407136
+              ],
+              [
+                -82.831631,
+                14.407091
+              ]
+            ],
+            [
+              [
+                -82.831451,
+                14.407136
+              ],
+              [
+                -82.831451,
+                14.407091
+              ],
+              [
+                -82.831407,
+                14.407091
+              ],
+              [
+                -82.831407,
+                14.407136
+              ],
+              [
+                -82.831451,
+                14.407136
+              ]
+            ],
+            [
+              [
+                -82.83235,
+                14.406372
+              ],
+              [
+                -82.83235,
+                14.406327
+              ],
+              [
+                -82.832305,
+                14.406327
+              ],
+              [
+                -82.832305,
+                14.406372
+              ],
+              [
+                -82.83235,
+                14.406372
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -82.721061,
+                14.418711
+              ],
+              [
+                -82.721061,
+                14.421836
+              ],
+              [
+                -82.717936,
+                14.421836
+              ],
+              [
+                -82.717936,
+                14.418711
+              ],
+              [
+                -82.721061,
+                14.418711
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Siderastrea stellata",
+          "rank": 1,
+          "composite_score": 0.5954738742605061,
+          "text_similarity": 0.23868468565126538,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Shallow lagoons and intertidal pools.",
+          "characteristics": "Characters:Colonies are massive and occasionally occur as free-living mobile bal..."
+        },
+        {
+          "species_name": "Porites desilveri",
+          "rank": 2,
+          "composite_score": 0.5022021074610359,
+          "text_similarity": 0.13050526865258982,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Shallow reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are encrusting with a smooth or nodular surface forming shor..."
+        },
+        {
+          "species_name": "Acropora lovelli",
+          "rank": 3,
+          "composite_score": 0.49536477939287776,
+          "text_similarity": 0.11341194848219448,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common on subtropical reefs of south-east Australia where it forms extensive stands, rare elsewhere.",
+          "hand_image_filename": "hand_image_0106.jpg",
+          "habitat": "Habitat:Shallow protected lagoons and lagoon entrances.",
+          "characteristics": "Characters:Colonies usually have compact branches which do not fuse. Upright bra..."
+        },
+        {
+          "species_name": "Acropora sekiseiensis",
+          "rank": 4,
+          "composite_score": 0.49402006438793583,
+          "text_similarity": 0.11005016096983962,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in the Ryukyu Islands, Japan.",
+          "hand_image_filename": "hand_image_0060.jpg",
+          "habitat": "Habitat:Shallow lagoons and reefs.",
+          "characteristics": "Characters:Colonies have irregularly prostrate branches with short sub-branches ..."
+        },
+        {
+          "species_name": "Diploria strigosa",
+          "rank": 5,
+          "composite_score": 0.4936940955238326,
+          "text_similarity": 0.1842352388095815,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Diploria clivosa",
+          "rank": 6,
+          "composite_score": 0.49239691041427625,
+          "text_similarity": 0.18099227603569065,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Most reef environments, especially shallow slopes and lagoons.",
+          "characteristics": "Characters:Colonies are massive (especially in shallow water) or encrusting. The..."
+        },
+        {
+          "species_name": "Montipora digitata",
+          "rank": 7,
+          "composite_score": 0.4830560947841415,
+          "text_similarity": 0.3076402369603538,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0063.jpg",
+          "habitat": "Habitat:Shallow reef environments. May be a dominant species of shallow mud flats.",
+          "characteristics": "Characters:Colonies are digitate or arborescent with anastomosing upright branch..."
+        },
+        {
+          "species_name": "Caulastrea tumida",
+          "rank": 8,
+          "composite_score": 0.48167404114622303,
+          "text_similarity": 0.2666851028655575,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common only in Western Australia and Japan.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reefs, and rocky foreshores of subtropical locations.",
+          "characteristics": "Characters:Colonies are phaceloid or plocoid, the former being predominant in hi..."
+        },
+        {
+          "species_name": "Porites heronensis",
+          "rank": 9,
+          "composite_score": 0.4764249802990607,
+          "text_similarity": 0.2910624507476518,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common in subtropical localities, rare in the tropics.",
+          "hand_image_filename": "hand_image_0094.jpg",
+          "habitat": "Habitat:Semi-protected shallow reef or terrigenous rock substrates.",
+          "characteristics": "Characters:Colonies are generally submassive, encrusting or columnar. Corallites..."
+        },
+        {
+          "species_name": "Pavona frondifera",
+          "rank": 10,
+          "composite_score": 0.46956186655833776,
+          "text_similarity": 0.23640466639584443,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Generally common.",
+          "hand_image_filename": "hand_image_0239.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are thin plates and/or contorted fronds with narrow bases an..."
+        }
+      ]
+    },
+    {
+      "reef_id": 13,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Sheltered Reef Slope",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                169.742948,
+                -11.557625
+              ],
+              [
+                169.742948,
+                -11.5545
+              ],
+              [
+                169.746073,
+                -11.5545
+              ],
+              [
+                169.746073,
+                -11.557625
+              ],
+              [
+                169.742948,
+                -11.557625
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                169.72761,
+                -11.524163
+              ],
+              [
+                169.72761,
+                -11.521038
+              ],
+              [
+                169.730735,
+                -11.521038
+              ],
+              [
+                169.730735,
+                -11.524163
+              ],
+              [
+                169.72761,
+                -11.524163
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Cyphastrea kausti",
+          "rank": 1,
+          "composite_score": 0.484291021011892,
+          "text_similarity": 0.08572755252973,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
+        },
+        {
+          "species_name": "Sclerophyllia margariticola",
+          "rank": 2,
+          "composite_score": 0.4839575029973977,
+          "text_similarity": 0.0848937574934943,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0254.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
+        },
+        {
+          "species_name": "Porites colonensis",
+          "rank": 3,
+          "composite_score": 0.4837000402279183,
+          "text_similarity": 0.11050010056979596,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0050.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
+        },
+        {
+          "species_name": "Polyphyllia talpina",
+          "rank": 4,
+          "composite_score": 0.4817882053414918,
+          "text_similarity": 0.0794705133537296,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0275.jpg",
+          "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
+          "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
+        },
+        {
+          "species_name": "Acropora pharaonis",
+          "rank": 5,
+          "composite_score": 0.47627129742306995,
+          "text_similarity": 0.06567824355767482,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:Sheltered reef slopes.",
+          "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
+        },
+        {
+          "species_name": "Ctenella chagius",
+          "rank": 6,
+          "composite_score": 0.4737177346949371,
+          "text_similarity": 0.08554433673734298,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0107.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are mostly submassive and meandroid. Valleys are highly conv..."
+        },
+        {
+          "species_name": "Pachyseris speciosa",
+          "rank": 7,
+          "composite_score": 0.4691722209940019,
+          "text_similarity": 0.12293055248500484,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:All reef habitats but most common on lower reef slopes.",
+          "characteristics": "Characters:Colonies are unifacial laminae, usually horizontal, which may develop..."
+        },
+        {
+          "species_name": "Isopora cuneata",
+          "rank": 8,
+          "composite_score": 0.459792747925214,
+          "text_similarity": 0.1494818698130351,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common, but less so thanIsopora palifera.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Occurs in all reef environments, especially upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are generally submassive or solid plates, usually without ax..."
+        },
+        {
+          "species_name": "Porites lichen",
+          "rank": 9,
+          "composite_score": 0.4557615023934095,
+          "text_similarity": 0.08940375598352389,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common and usually conspicuous.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:Frequently a dominant species of lagoons and reef slopes.",
+          "characteristics": "Characters:Colonies are flat laminae or plates, or fused nodules and columns. Co..."
+        },
+        {
+          "species_name": "Acropora nasuta",
+          "rank": 10,
+          "composite_score": 0.45518532274624923,
+          "text_similarity": 0.08796330686562315,
+          "keyword_similarity": 0.4,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:AllAcroporaassemblages but especially those of upper reef slopes.",
+          "characteristics": "Characters:Colonies are irregularly corymbose with elongate tapering branchlets...."
+        }
+      ]
+    },
+    {
+      "reef_id": 14,
+      "benthic_class": "Rock",
+      "geomorphic_class": "Outer Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                137.445338,
+                8.503677
+              ],
+              [
+                137.442733,
+                8.497613
+              ],
+              [
+                137.436983,
+                8.497613
+              ],
+              [
+                137.442283,
+                8.503812
+              ],
+              [
+                137.445338,
+                8.503677
+              ]
+            ],
+            [
+              [
+                137.440352,
+                8.500263
+              ],
+              [
+                137.439723,
+                8.499994
+              ],
+              [
+                137.439633,
+                8.49932
+              ],
+              [
+                137.441116,
+                8.500937
+              ],
+              [
+                137.440352,
+                8.500263
+              ]
+            ],
+            [
+              [
+                137.4439,
+                8.501297
+              ],
+              [
+                137.443496,
+                8.501072
+              ],
+              [
+                137.443496,
+                8.500847
+              ],
+              [
+                137.443631,
+                8.500847
+              ],
+              [
+                137.4439,
+                8.501297
+              ]
+            ],
+            [
+              [
+                137.441205,
+                8.501072
+              ],
+              [
+                137.441295,
+                8.501027
+              ],
+              [
+                137.441295,
+                8.501207
+              ],
+              [
+                137.44116,
+                8.501162
+              ],
+              [
+                137.441205,
+                8.501072
+              ]
+            ],
+            [
+              [
+                137.443541,
+                8.500758
+              ],
+              [
+                137.443586,
+                8.500758
+              ],
+              [
+                137.443586,
+                8.500802
+              ],
+              [
+                137.443541,
+                8.500802
+              ],
+              [
+                137.443541,
+                8.500758
+              ]
+            ],
+            [
+              [
+                137.443496,
+                8.500758
+              ],
+              [
+                137.443406,
+                8.500668
+              ],
+              [
+                137.443361,
+                8.500488
+              ],
+              [
+                137.443541,
+                8.500533
+              ],
+              [
+                137.443496,
+                8.500758
+              ]
+            ],
+            [
+              [
+                137.442104,
+                8.498377
+              ],
+              [
+                137.442104,
+                8.498332
+              ],
+              [
+                137.442149,
+                8.498332
+              ],
+              [
+                137.442149,
+                8.498377
+              ],
+              [
+                137.442104,
+                8.498377
+              ]
+            ],
+            [
+              [
+                137.442104,
+                8.498467
+              ],
+              [
+                137.442014,
+                8.498422
+              ],
+              [
+                137.442014,
+                8.498332
+              ],
+              [
+                137.442104,
+                8.498377
+              ],
+              [
+                137.442104,
+                8.498467
+              ]
+            ],
+            [
+              [
+                137.441744,
+                8.499141
+              ],
+              [
+                137.441789,
+                8.49932
+              ],
+              [
+                137.44152,
+                8.499185
+              ],
+              [
+                137.44152,
+                8.499096
+              ],
+              [
+                137.441744,
+                8.499141
+              ]
+            ],
+            [
+              [
+                137.44417,
+                8.503093
+              ],
+              [
+                137.444215,
+                8.503273
+              ],
+              [
+                137.44408,
+                8.503318
+              ],
+              [
+                137.444035,
+                8.503093
+              ],
+              [
+                137.44417,
+                8.503093
+              ]
+            ],
+            [
+              [
+                137.441924,
+                8.49941
+              ],
+              [
+                137.441924,
+                8.499365
+              ],
+              [
+                137.441969,
+                8.499365
+              ],
+              [
+                137.441969,
+                8.49941
+              ],
+              [
+                137.441924,
+                8.49941
+              ]
+            ],
+            [
+              [
+                137.441879,
+                8.499365
+              ],
+              [
+                137.441879,
+                8.49932
+              ],
+              [
+                137.441924,
+                8.49932
+              ],
+              [
+                137.441924,
+                8.499365
+              ],
+              [
+                137.441879,
+                8.499365
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                138.079279,
+                9.465503
+              ],
+              [
+                138.082243,
+                9.462943
+              ],
+              [
+                138.080267,
+                9.456745
+              ],
+              [
+                138.080716,
+                9.462853
+              ],
+              [
+                138.079279,
+                9.465503
+              ]
+            ],
+            [
+              [
+                138.080671,
+                9.463213
+              ],
+              [
+                138.080716,
+                9.463213
+              ],
+              [
+                138.080716,
+                9.463302
+              ],
+              [
+                138.080671,
+                9.463302
+              ],
+              [
+                138.080671,
+                9.463213
+              ]
+            ],
+            [
+              [
+                138.080716,
+                9.463168
+              ],
+              [
+                138.080761,
+                9.463168
+              ],
+              [
+                138.080761,
+                9.463213
+              ],
+              [
+                138.080716,
+                9.463213
+              ],
+              [
+                138.080716,
+                9.463168
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Porites echinulata",
+          "rank": 1,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 2,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 3,
+          "composite_score": 0.4834195887063416,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.2222222222222222,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Acropora nana",
+          "rank": 7,
+          "composite_score": 0.4595275318738217,
+          "text_similarity": 0.027568829684554277,
+          "keyword_similarity": 0.6,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
+          "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 8,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 9,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 10,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        }
+      ]
+    },
+    {
+      "reef_id": 15,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Outer Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                167.630438,
+                -13.694143
+              ],
+              [
+                167.628282,
+                -13.693873
+              ],
+              [
+                167.627114,
+                -13.696478
+              ],
+              [
+                167.61602,
+                -13.702048
+              ],
+              [
+                167.627878,
+                -13.693559
+              ],
+              [
+                167.630438,
+                -13.694143
+              ]
+            ],
+            [
+              [
+                167.624195,
+                -13.697556
+              ],
+              [
+                167.624374,
+                -13.697556
+              ],
+              [
+                167.624374,
+                -13.697511
+              ],
+              [
+                167.624195,
+                -13.697511
+              ],
+              [
+                167.624195,
+                -13.697556
+              ]
+            ],
+            [
+              [
+                167.625812,
+                -13.696658
+              ],
+              [
+                167.625857,
+                -13.696658
+              ],
+              [
+                167.625857,
+                -13.696613
+              ],
+              [
+                167.625812,
+                -13.696613
+              ],
+              [
+                167.625812,
+                -13.696658
+              ]
+            ],
+            [
+              [
+                167.625767,
+                -13.696658
+              ],
+              [
+                167.625767,
+                -13.696703
+              ],
+              [
+                167.625812,
+                -13.696703
+              ],
+              [
+                167.625812,
+                -13.696658
+              ],
+              [
+                167.625767,
+                -13.696658
+              ]
+            ],
+            [
+              [
+                167.625902,
+                -13.696613
+              ],
+              [
+                167.625902,
+                -13.696568
+              ],
+              [
+                167.625857,
+                -13.696568
+              ],
+              [
+                167.625857,
+                -13.696613
+              ],
+              [
+                167.625902,
+                -13.696613
+              ]
+            ],
+            [
+              [
+                167.626306,
+                -13.696344
+              ],
+              [
+                167.626261,
+                -13.696344
+              ],
+              [
+                167.626261,
+                -13.696389
+              ],
+              [
+                167.626306,
+                -13.696389
+              ],
+              [
+                167.626306,
+                -13.696344
+              ]
+            ],
+            [
+              [
+                167.62114,
+                -13.69832
+              ],
+              [
+                167.621096,
+                -13.69832
+              ],
+              [
+                167.621096,
+                -13.698365
+              ],
+              [
+                167.62114,
+                -13.698365
+              ],
+              [
+                167.62114,
+                -13.69832
+              ]
+            ],
+            [
+              [
+                167.626396,
+                -13.696299
+              ],
+              [
+                167.626351,
+                -13.696299
+              ],
+              [
+                167.626351,
+                -13.696344
+              ],
+              [
+                167.626396,
+                -13.696344
+              ],
+              [
+                167.626396,
+                -13.696299
+              ]
+            ],
+            [
+              [
+                167.621051,
+                -13.698365
+              ],
+              [
+                167.621006,
+                -13.698365
+              ],
+              [
+                167.621006,
+                -13.69841
+              ],
+              [
+                167.621051,
+                -13.69841
+              ],
+              [
+                167.621051,
+                -13.698365
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                166.641784,
+                -13.365911
+              ],
+              [
+                166.641784,
+                -13.362786
+              ],
+              [
+                166.644909,
+                -13.362786
+              ],
+              [
+                166.644909,
+                -13.365911
+              ],
+              [
+                166.641784,
+                -13.365911
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Porites echinulata",
+          "rank": 1,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 2,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 3,
+          "composite_score": 0.4834195887063416,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.2222222222222222,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Acropora nana",
+          "rank": 7,
+          "composite_score": 0.4595275318738217,
+          "text_similarity": 0.027568829684554277,
+          "keyword_similarity": 0.6,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
+          "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 8,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 9,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 10,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        }
+      ]
+    },
+    {
+      "reef_id": 16,
+      "benthic_class": "Rubble",
+      "geomorphic_class": "Outer Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                118.72283,
+                4.406551
+              ],
+              [
+                118.719237,
+                4.405608
+              ],
+              [
+                118.716497,
+                4.407359
+              ],
+              [
+                118.716317,
+                4.407898
+              ],
+              [
+                118.72283,
+                4.406551
+              ]
+            ],
+            [
+              [
+                118.718563,
+                4.406236
+              ],
+              [
+                118.718563,
+                4.406192
+              ],
+              [
+                118.718608,
+                4.406192
+              ],
+              [
+                118.718608,
+                4.406236
+              ],
+              [
+                118.718563,
+                4.406236
+              ]
+            ],
+            [
+              [
+                118.718608,
+                4.406147
+              ],
+              [
+                118.718653,
+                4.406147
+              ],
+              [
+                118.718653,
+                4.406192
+              ],
+              [
+                118.718608,
+                4.406192
+              ],
+              [
+                118.718608,
+                4.406147
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                119.053622,
+                4.736399
+              ],
+              [
+                119.053622,
+                4.739524
+              ],
+              [
+                119.056747,
+                4.739524
+              ],
+              [
+                119.056747,
+                4.736399
+              ],
+              [
+                119.053622,
+                4.736399
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 1,
+          "composite_score": 0.5292529220396749,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.375,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Porites echinulata",
+          "rank": 2,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 3,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Acropora nana",
+          "rank": 7,
+          "composite_score": 0.4595275318738217,
+          "text_similarity": 0.027568829684554277,
+          "keyword_similarity": 0.6,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
+          "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 8,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Podabacia kunzmanni",
+          "rank": 9,
+          "composite_score": 0.45534018216467365,
+          "text_similarity": 0.03960045541168423,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0215.jpg",
+          "habitat": "Habitat:Occurs on reef rubble.",
+          "characteristics": "Characters:Colonies are small side-or centrally attached plates. A central coral..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 10,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        }
+      ]
+    },
+    {
+      "reef_id": 17,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Reef Slope",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -74.157265,
+                11.311955
+              ],
+              [
+                -74.157265,
+                11.31508
+              ],
+              [
+                -74.15414,
+                11.31508
+              ],
+              [
+                -74.15414,
+                11.311955
+              ],
+              [
+                -74.157265,
+                11.311955
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -73.982956,
+                11.340242
+              ],
+              [
+                -73.980935,
+                11.339973
+              ],
+              [
+                -73.980396,
+                11.339344
+              ],
+              [
+                -73.984618,
+                11.339254
+              ],
+              [
+                -73.982956,
+                11.340242
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Cyphastrea kausti",
+          "rank": 1,
+          "composite_score": 0.534291021011892,
+          "text_similarity": 0.08572755252973,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0082.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are submassive to encrusting. Corallites are moderately tall..."
+        },
+        {
+          "species_name": "Sclerophyllia margariticola",
+          "rank": 2,
+          "composite_score": 0.5339575029973977,
+          "text_similarity": 0.0848937574934943,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Unknown but possibly common.",
+          "hand_image_filename": "hand_image_0254.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Solitary, approximately circular, with calices up to 15 mm diameter. ..."
+        },
+        {
+          "species_name": "Porites colonensis",
+          "rank": 3,
+          "composite_score": 0.5337000402279183,
+          "text_similarity": 0.11050010056979596,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0050.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are thin plates, sometimes in tiers. Surfaces of plates are ..."
+        },
+        {
+          "species_name": "Polyphyllia talpina",
+          "rank": 4,
+          "composite_score": 0.5317882053414918,
+          "text_similarity": 0.0794705133537296,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0275.jpg",
+          "habitat": "Habitat:Reef slopes, especially whereFungiais common.",
+          "characteristics": "Characters:Colonies are free-living and elongate, with an axial furrow that may ..."
+        },
+        {
+          "species_name": "Acropora pharaonis",
+          "rank": 5,
+          "composite_score": 0.5262712974230699,
+          "text_similarity": 0.06567824355767482,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:Sheltered reef slopes.",
+          "characteristics": "Characters:Colonies are large horizontal tables or irregular clusters of horizon..."
+        },
+        {
+          "species_name": "Ctenella chagius",
+          "rank": 6,
+          "composite_score": 0.5237177346949371,
+          "text_similarity": 0.08554433673734298,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 0.9649999999999999,
+          "abundance_level": "Abundance:Locally common.",
+          "hand_image_filename": "hand_image_0107.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are mostly submassive and meandroid. Valleys are highly conv..."
+        },
+        {
+          "species_name": "Acropora tizardi",
+          "rank": 7,
+          "composite_score": 0.5047993586651254,
+          "text_similarity": 0.09074839666281331,
+          "keyword_similarity": 0.6666666666666666,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common in Vietnam.",
+          "hand_image_filename": "hand_image_0007.jpg",
+          "habitat": "Habitat:Reef slopes.",
+          "characteristics": "Characters:Colonies are caespitose, composed of thin branches which interlock in..."
+        },
+        {
+          "species_name": "Pachyseris speciosa",
+          "rank": 8,
+          "composite_score": 0.49917222099400194,
+          "text_similarity": 0.12293055248500484,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:All reef habitats but most common on lower reef slopes.",
+          "characteristics": "Characters:Colonies are unifacial laminae, usually horizontal, which may develop..."
+        },
+        {
+          "species_name": "Porites lichen",
+          "rank": 9,
+          "composite_score": 0.48576150239340954,
+          "text_similarity": 0.08940375598352389,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common and usually conspicuous.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:Frequently a dominant species of lagoons and reef slopes.",
+          "characteristics": "Characters:Colonies are flat laminae or plates, or fused nodules and columns. Co..."
+        },
+        {
+          "species_name": "Acropora nasuta",
+          "rank": 10,
+          "composite_score": 0.48518532274624926,
+          "text_similarity": 0.08796330686562315,
+          "keyword_similarity": 0.5,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0037.jpg",
+          "habitat": "Habitat:AllAcroporaassemblages but especially those of upper reef slopes.",
+          "characteristics": "Characters:Colonies are irregularly corymbose with elongate tapering branchlets...."
+        }
+      ]
+    },
+    {
+      "reef_id": 18,
+      "benthic_class": "Coral/Algae",
+      "geomorphic_class": "Outer Reef Flat",
+      "polygons": [
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -77.89776,
+                18.513344
+              ],
+              [
+                -77.89776,
+                18.516469
+              ],
+              [
+                -77.894635,
+                18.516469
+              ],
+              [
+                -77.894635,
+                18.513344
+              ],
+              [
+                -77.89776,
+                18.513344
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -78.184322,
+                18.201359
+              ],
+              [
+                -78.184322,
+                18.204484
+              ],
+              [
+                -78.181197,
+                18.204484
+              ],
+              [
+                -78.181197,
+                18.201359
+              ],
+              [
+                -78.184322,
+                18.201359
+              ]
+            ]
+          ]
+        }
+      ],
+      "potential_coral_species": [
+        {
+          "species_name": "Porites echinulata",
+          "rank": 1,
+          "composite_score": 0.5222592567880519,
+          "text_similarity": 0.4056481419701296,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Shallow reef environments.",
+          "characteristics": "Characters:Colonies are massive, flat or consisting of flat-topped columns. The ..."
+        },
+        {
+          "species_name": "Symphyllia radians",
+          "rank": 2,
+          "composite_score": 0.4844163334976431,
+          "text_similarity": 0.3538979766012507,
+          "keyword_similarity": 0.14285714285714285,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0135.jpg",
+          "habitat": "Habitat:Upper reef slopes and fringing reefs.",
+          "characteristics": "Characters:Colonies are hemispherical to flat. Valleys average 20-25 millimetres..."
+        },
+        {
+          "species_name": "Heliofungia actiniformis",
+          "rank": 3,
+          "composite_score": 0.4834195887063416,
+          "text_similarity": 0.2918823050991874,
+          "keyword_similarity": 0.2222222222222222,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Usually found on flat soft or rubble substrates especially in reef lagoons or shallow turbid environments.",
+          "characteristics": "Characters:Polyps are solitary, free-living (except for juveniles) and flat, wit..."
+        },
+        {
+          "species_name": "Leptastrea purpurea",
+          "rank": 4,
+          "composite_score": 0.47282813837050924,
+          "text_similarity": 0.2445703459262731,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0250.jpg",
+          "habitat": "Habitat:A wide range of reef environments.",
+          "characteristics": "Characters:Colonies are generally flat with angular, cerioid corallites which va..."
+        },
+        {
+          "species_name": "Merulina ampliata",
+          "rank": 5,
+          "composite_score": 0.46747887576916997,
+          "text_similarity": 0.2686971894229249,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Usually common, rare in the Red Sea.",
+          "hand_image_filename": "hand_image_0183.jpg",
+          "habitat": "Habitat:A wide variety of reef environments, especially lagoons.",
+          "characteristics": "Characters:Colonies are laminar or subarborescent, with these different growth-f..."
+        },
+        {
+          "species_name": "Acropora globiceps",
+          "rank": 6,
+          "composite_score": 0.4626966314344392,
+          "text_similarity": 0.15674157858609802,
+          "keyword_similarity": 0.3333333333333333,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Seldom common.",
+          "hand_image_filename": "hand_image_0070.jpg",
+          "habitat": "Habitat:Upper reef slopes and reef flats.",
+          "characteristics": "Characters:Colonies are digitate and usually small. The size and appearance of b..."
+        },
+        {
+          "species_name": "Acropora nana",
+          "rank": 7,
+          "composite_score": 0.4595275318738217,
+          "text_similarity": 0.027568829684554277,
+          "keyword_similarity": 0.6,
+          "abundance_factor": 0.895,
+          "abundance_level": "Abundance:Sometimes common.",
+          "hand_image_filename": "hand_image_0222.jpg",
+          "habitat": "Habitat:Outer reef flats where currents or wave action is strong.",
+          "characteristics": "Characters:Colonies are compact clumps of long, non-tapering, straight, equidist..."
+        },
+        {
+          "species_name": "Favia favus",
+          "rank": 8,
+          "composite_score": 0.4557469143376316,
+          "text_similarity": 0.23936728584407907,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:May be a dominant species on reef back margins.",
+          "characteristics": "Characters:Colonies are massive, rounded or flat. Corallites are conical. Septa ..."
+        },
+        {
+          "species_name": "Pavona varians",
+          "rank": 9,
+          "composite_score": 0.4548097300318992,
+          "text_similarity": 0.19952432507974788,
+          "keyword_similarity": 0.25,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0101.jpg",
+          "habitat": "Habitat:Most reef environments.",
+          "characteristics": "Characters:Colonies are submassive, laminar or encrusting or various combination..."
+        },
+        {
+          "species_name": "Favia stelligera",
+          "rank": 10,
+          "composite_score": 0.4504434570698668,
+          "text_similarity": 0.2261086426746671,
+          "keyword_similarity": 0.2,
+          "abundance_factor": 1.0,
+          "abundance_level": "Abundance:Common.",
+          "hand_image_filename": "hand_image_0056.jpg",
+          "habitat": "Habitat:Shallow reef environments where water movement is strong.",
+          "characteristics": "Characters:Colonies are spherical, columnar, hillocky or flat and may be several..."
+        }
+      ]
+    }
+  ]
+}

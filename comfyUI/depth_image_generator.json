@@ -17,7 +17,7 @@
     "inputs": {
       "filename_prefix": "ComfyUI",
       "images": [
-        "1",
+        "4",
         0
       ]
     },
@@ -33,6 +33,20 @@
     "class_type": "LoadImage",
     "_meta": {
       "title": "Load Image"
+    }
+  },
+  "4": {
+    "inputs": {
+      "width": 512,
+      "height": 512,
+      "images": [
+        "1",
+        0
+      ]
+    },
+    "class_type": "CenterCropImages",
+    "_meta": {
+      "title": "Center Crop Images"
     }
   }
 }
